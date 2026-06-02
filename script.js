@@ -14,9 +14,9 @@ const translations = {
     heroSecondary: "Get monthly updates",
     issueMonth: "May 2026 Issue",
     issueNo: "Vol. 18",
-    issueTitle: "Risk Signals in Cross-Border Deals",
+    issueTitle: "Legal Curiosities: What Happened in U.S. Law This Month?",
     issueSummary:
-      "This edition tracks fast-moving enforcement priorities, contract risk signals, and litigation trends shaping the next quarter.",
+      "This issue covers the June Visa Bulletin, immigration enforcement updates, student status changes, USCIS policy shifts, and other major U.S. legal developments from May 2026.",
     tickerLabel: "Breaking legal notes",
     tickerText:
       "FTC non-compete rule challenges continue | SEC cyber disclosure letters increase | New state privacy laws take effect this summer",
@@ -77,7 +77,7 @@ const translations = {
       "The best legal teams help leaders move faster by defining acceptable risk, repeatable playbooks, and escalation points before pressure peaks.",
     mayBackLink: "Back to all newsletters",
     mayKicker: "May 2026 template issue",
-    mayTitle: "Risk Signals in Cross-Border Deals",
+    mayTitle: "Legal Curiosities: What Happened in U.S. Law This Month?",
     maySummary:
       "This draft newsletter template uses filler text and placeholder images so future issues can be produced quickly while the final articles, citations, and editorial notes are prepared.",
     mayMetaOne: "Editor draft",
@@ -119,7 +119,7 @@ const translations = {
     archiveKicker: "Issue archive",
     archiveTitle: "Earlier editions",
     archiveOneMonth: "May 2026",
-    archiveOneTitle: "Risk Signals in Cross-Border Deals",
+    archiveOneTitle: "Legal Curiosities: What Happened in U.S. Law This Month?",
     archiveTwoMonth: "April 2026",
     archiveTwoTitle: "Employment Policies After Agency Shifts",
     archiveThreeMonth: "March 2026",
@@ -148,9 +148,9 @@ const translations = {
     heroSecondary: "获取每月更新",
     issueMonth: "2026 年 5 月刊",
     issueNo: "第 18 期",
-    issueTitle: "跨境交易中的风险信号",
+    issueTitle: "法律奇闻：本月美国法律发生了什么？",
     issueSummary:
-      "本期追踪快速变化的执法重点、合同风险信号以及正在影响下一季度的诉讼趋势。",
+      "本期涵盖 6 月签证公告、移民执法动态、学生身份变化、USCIS 政策调整以及 2026 年 5 月的其他美国法律重点。",
     tickerLabel: "法律快讯",
     tickerText:
       "FTC 竞业禁止规则挑战仍在继续 | SEC 网络安全披露函增加 | 新州级隐私法将于今夏生效",
@@ -211,7 +211,7 @@ const translations = {
       "优秀的法务团队通过提前定义可接受风险、可复用流程和升级节点，帮助领导者更快行动。",
     mayBackLink: "返回所有月刊",
     mayKicker: "2026 年 5 月模板刊",
-    mayTitle: "跨境交易中的风险信号",
+    mayTitle: "法律奇闻：本月美国法律发生了什么？",
     maySummary:
       "这份月刊草稿模板使用占位文字和占位图片，方便在最终文章、引用和编辑说明准备完成前，快速制作后续刊物。",
     mayMetaOne: "编辑草稿",
@@ -253,7 +253,7 @@ const translations = {
     archiveKicker: "往期归档",
     archiveTitle: "早期刊物",
     archiveOneMonth: "2026 年 5 月",
-    archiveOneTitle: "跨境交易中的风险信号",
+    archiveOneTitle: "法律奇闻：本月美国法律发生了什么？",
     archiveTwoMonth: "2026 年 4 月",
     archiveTwoTitle: "机构变化后的雇佣政策",
     archiveThreeMonth: "2026 年 3 月",
@@ -282,9 +282,9 @@ const translations = {
     heroSecondary: "取得每月更新",
     issueMonth: "2026 年 5 月刊",
     issueNo: "第 18 期",
-    issueTitle: "跨境交易中的風險訊號",
+    issueTitle: "法律奇聞：本月美國法律發生了什麼？",
     issueSummary:
-      "本期追蹤快速變化的執法重點、合約風險訊號，以及正在影響下一季的訴訟趨勢。",
+      "本期涵蓋 6 月簽證公告、移民執法動態、學生身分變化、USCIS 政策調整以及 2026 年 5 月的其他美國法律重點。",
     tickerLabel: "法律快訊",
     tickerText:
       "FTC 競業禁止規則挑戰仍在繼續 | SEC 網路安全揭露函增加 | 新州級隱私法將於今夏生效",
@@ -345,7 +345,7 @@ const translations = {
       "優秀的法務團隊透過提前定義可接受風險、可複用流程和升級節點，協助領導者更快行動。",
     mayBackLink: "返回所有月刊",
     mayKicker: "2026 年 5 月模板刊",
-    mayTitle: "跨境交易中的風險訊號",
+    mayTitle: "法律奇聞：本月美國法律發生了什麼？",
     maySummary:
       "這份月刊草稿模板使用佔位文字和佔位圖片，方便在最終文章、引用和編輯說明準備完成前，快速製作後續刊物。",
     mayMetaOne: "編輯草稿",
@@ -387,7 +387,7 @@ const translations = {
     archiveKicker: "往期歸檔",
     archiveTitle: "早期刊物",
     archiveOneMonth: "2026 年 5 月",
-    archiveOneTitle: "跨境交易中的風險訊號",
+    archiveOneTitle: "法律奇聞：本月美國法律發生了什麼？",
     archiveTwoMonth: "2026 年 4 月",
     archiveTwoTitle: "機構變化後的僱傭政策",
     archiveThreeMonth: "2026 年 3 月",
