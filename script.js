@@ -1,6 +1,6 @@
 const translations = {
   en: {
-    brandEyebrow: "Lanicao Law Group",
+    brandEyebrow: "News and Updates",
     brandName: "North America Legal Monthly",
     navLatest: "Latest",
     navEditorials: "Editorials",
@@ -92,11 +92,11 @@ const translations = {
     emailLabel: "Work email",
     subscribeButton: "Subscribe",
     formNote: "Connect this form to a secure backend to save subscribers to a database.",
-    footerText: "© 2026 Lanicao Law Group. Attorney advertising. For informational purposes only.",
+    footerText: "© 2026 News and Updates. For informational purposes only.",
     footerLink: "Back to top",
   },
   zhHans: {
-    brandEyebrow: "Lanicao 律师事务所",
+    brandEyebrow: "新闻与动态",
     brandName: "北美法律月刊",
     navLatest: "最新",
     navEditorials: "社论",
@@ -105,7 +105,7 @@ const translations = {
     heroKicker: "每月法律情报",
     heroTitle: "为创始人、高管和企业法务团队准备的实用法律新闻。",
     heroSummary:
-      "这是一份精致的律师事务所简报，汇集合规、争议、交易、雇佣和隐私领域的分散更新，帮助繁忙的管理者快速发现重点。",
+      "这是一份精致的法律新闻月刊，汇集合规、争议、交易、雇佣和隐私领域的分散更新，帮助繁忙的管理者快速发现重点。",
     heroPrimary: "阅读最新一期",
     heroSecondary: "获取每月更新",
     issueMonth: "2026 年 6 月刊",
@@ -188,11 +188,11 @@ const translations = {
     emailLabel: "工作邮箱",
     subscribeButton: "订阅",
     formNote: "将此表单连接到安全后端，即可把订阅者保存到数据库。",
-    footerText: "© 2026 Lanicao 律师事务所。律师广告。仅供信息参考。",
+    footerText: "© 2026 新闻与动态。仅供信息参考。",
     footerLink: "返回顶部",
   },
   zhHant: {
-    brandEyebrow: "Lanicao 律師事務所",
+    brandEyebrow: "新聞與動態",
     brandName: "北美法律月刊",
     navLatest: "最新",
     navEditorials: "社論",
@@ -201,7 +201,7 @@ const translations = {
     heroKicker: "每月法律情報",
     heroTitle: "為創辦人、高階主管和企業法務團隊準備的實用法律新聞。",
     heroSummary:
-      "這是一份精緻的律師事務所簡報，匯集合規、爭議、交易、僱傭和隱私領域的分散更新，協助忙碌的管理者快速掌握重點。",
+      "這是一份精緻的法律新聞月刊，匯集合規、爭議、交易、僱傭和隱私領域的分散更新，協助忙碌的管理者快速掌握重點。",
     heroPrimary: "閱讀最新一期",
     heroSecondary: "取得每月更新",
     issueMonth: "2026 年 6 月刊",
@@ -284,7 +284,7 @@ const translations = {
     emailLabel: "工作信箱",
     subscribeButton: "訂閱",
     formNote: "將此表單連接到安全後端，即可把訂閱者儲存到資料庫。",
-    footerText: "© 2026 Lanicao 律師事務所。律師廣告。僅供資訊參考。",
+    footerText: "© 2026 新聞與動態。僅供資訊參考。",
     footerLink: "返回頂部",
   },
 };
