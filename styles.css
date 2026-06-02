@@ -336,6 +336,106 @@ h1 {
   line-height: 1.72;
 }
 
+.issue-slideshow-card {
+  position: relative;
+  padding: 0;
+  overflow: hidden;
+  background: rgba(255, 253, 248, 0.82);
+}
+
+.issue-slideshow-card:hover,
+.issue-slideshow-card:focus-within {
+  transform: translateY(-4px);
+  box-shadow: 0 30px 76px rgba(13, 31, 53, 0.24);
+}
+
+.issue-card-link {
+  display: flex;
+  min-height: inherit;
+  flex: 1;
+  flex-direction: column;
+  color: inherit;
+}
+
+.issue-card-link:focus-visible {
+  outline: 3px solid rgba(201, 157, 82, 0.72);
+  outline-offset: -8px;
+}
+
+.issue-slideshow {
+  position: relative;
+  height: 260px;
+  overflow: hidden;
+  background: var(--navy);
+}
+
+.issue-slideshow::after {
+  position: absolute;
+  inset: 0;
+  background: linear-gradient(180deg, rgba(13, 31, 53, 0.06), rgba(13, 31, 53, 0.44));
+  content: "";
+}
+
+.issue-slide {
+  position: absolute;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  opacity: 0;
+  transform: scale(1.04);
+  transition:
+    opacity 700ms ease,
+    transform 1800ms ease;
+}
+
+.issue-slide.active {
+  opacity: 1;
+  transform: scale(1);
+}
+
+.issue-card-content {
+  display: flex;
+  min-height: calc(560px - 260px);
+  flex: 1;
+  flex-direction: column;
+  justify-content: flex-end;
+  padding: 30px 34px 42px;
+  background:
+    linear-gradient(180deg, rgba(13, 31, 53, 0.9), rgba(13, 31, 53, 0.98)),
+    linear-gradient(135deg, rgba(201, 157, 82, 0.5), rgba(23, 54, 85, 0.96));
+}
+
+.issue-slideshow-controls {
+  position: absolute;
+  top: 226px;
+  right: 28px;
+  z-index: 2;
+  display: flex;
+  gap: 8px;
+}
+
+.issue-slide-control {
+  width: 10px;
+  height: 10px;
+  border: 0;
+  border-radius: 999px;
+  padding: 0;
+  background: rgba(255, 253, 248, 0.72);
+  cursor: pointer;
+  transition:
+    width 180ms ease,
+    background 180ms ease,
+    transform 180ms ease;
+}
+
+.issue-slide-control:hover,
+.issue-slide-control:focus-visible,
+.issue-slide-control.active {
+  width: 26px;
+  background: var(--gold);
+  transform: translateY(-1px);
+}
 
 .ticker-bar {
   display: grid;
@@ -925,6 +1025,18 @@ h1 {
   .hero-copy,
   .issue-card {
     min-height: auto;
+  }
+
+  .issue-card-content {
+    min-height: 300px;
+  }
+
+  .issue-slideshow {
+    height: 240px;
+  }
+
+  .issue-slideshow-controls {
+    top: 206px;
   }
 
   .article-grid,
