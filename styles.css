@@ -184,6 +184,8 @@ input {
 .lead-story,
 .counsel-note,
 .article-card,
+.editorials-section,
+.editorial-card,
 .briefs-section,
 .archive-section,
 .subscribe-section {
@@ -420,6 +422,7 @@ h1 {
 }
 
 .section-block,
+.editorials-section,
 .briefs-section,
 .archive-section,
 .subscribe-section {
@@ -434,25 +437,29 @@ h1 {
   margin-bottom: 22px;
 }
 
-.article-grid {
+.article-grid,
+.editorial-grid {
   display: grid;
   grid-template-columns: repeat(4, 1fr);
   gap: 18px;
 }
 
-.article-card {
+.article-card,
+.editorial-card {
   min-height: 280px;
   padding: 24px;
   border-radius: var(--radius-md);
 }
 
-.article-card h3 {
+.article-card h3,
+.editorial-card h3 {
   margin: 18px 0 12px;
   font-size: 1.15rem;
   line-height: 1.22;
 }
 
-.highlighted-card {
+.highlighted-card,
+.featured-editorial {
   color: var(--white);
   background:
     linear-gradient(160deg, rgba(201, 157, 82, 0.92), rgba(13, 31, 53, 0.92)),
@@ -461,11 +468,15 @@ h1 {
 
 .highlighted-card h3,
 .highlighted-card p,
-.highlighted-card .article-tag {
+.highlighted-card .article-tag,
+.featured-editorial h3,
+.featured-editorial p,
+.featured-editorial .article-tag {
   color: var(--white);
 }
 
 .briefs-section,
+.editorials-section,
 .archive-section,
 .subscribe-section {
   padding: clamp(28px, 4vw, 46px);
@@ -658,7 +669,8 @@ h1 {
     min-height: auto;
   }
 
-  .article-grid {
+  .article-grid,
+  .editorial-grid {
     grid-template-columns: repeat(2, 1fr);
   }
 
@@ -728,6 +740,7 @@ h1 {
 
   .issue-stats,
   .article-grid,
+  .editorial-grid,
   .archive-grid {
     grid-template-columns: 1fr;
   }
