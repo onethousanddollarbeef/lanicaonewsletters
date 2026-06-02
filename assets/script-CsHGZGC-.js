@@ -32,7 +32,7 @@
               <li>EB-1至EB-5：无变化 / 表B关闭不开放递交</li>
             </ul>
           </div>
-          <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTnlPz-7SBE7Kp2GZ8vmKslc2qE9eqmPveoOw&s" alt="May newsletter article image 2" />
+          <img src="https://rollcall.com/app/uploads/2020/10/GettyImages-1229228566.jpg?fit=2048,1152" alt="May newsletter article image 2" />
 
           <h2>特朗普政府正式倒查拜登时期获批案件</h2>
           <p>国土安全部正式启动一项新的执法审查计划，重点重新核查绿卡持有人的移民历史。政府方面表示，拜登政府时期部分移民案件审查标准过于宽松，因此有必要对一定范围内的移民记录重新进行背景审查。截至5月7日，已有近3000起案件完成审查或仍在评估中，其中约80%的案件被认定为“无需进一步处理”。根据美国现行移民法，绿卡并不等于绝对安全。绿卡持有人如果涉及某些刑事犯罪定罪、通过欺诈或虚假陈述取得身份，甚至在申请永久居民身份过程中存在重大隐瞒，都可能面临被放入遣返程序的风险。对于绿卡持有人而言，如曾有刑事记录、移民申请瑕疵、虚假陈述或长期离境记录，应尽快评估自身风险，避免在入境、入籍或身份更新过程中触发进一步审查。</p>
