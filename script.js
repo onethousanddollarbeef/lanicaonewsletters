@@ -12,9 +12,9 @@ const translations = {
       "A polished law newsletter with scattered updates across compliance, disputes, transactions, employment, and privacy so busy leaders can spot what matters quickly.",
     heroPrimary: "Read the latest issue",
     heroSecondary: "Get monthly updates",
-    issueMonth: "June 2026 Issue",
+    issueMonth: "May 2026 Issue",
     issueNo: "Vol. 18",
-    issueTitle: "Boardroom Briefing: Regulation in Motion",
+    issueTitle: "Risk Signals in Cross-Border Deals",
     issueSummary:
       "This edition tracks fast-moving enforcement priorities, contract risk signals, and litigation trends shaping the next quarter.",
     tickerLabel: "Breaking legal notes",
@@ -75,6 +75,47 @@ const translations = {
     editorialThreeTitle: "The legal function as a growth partner",
     editorialThreeBody:
       "The best legal teams help leaders move faster by defining acceptable risk, repeatable playbooks, and escalation points before pressure peaks.",
+    mayBackLink: "Back to all newsletters",
+    mayKicker: "May 2026 template issue",
+    mayTitle: "Risk Signals in Cross-Border Deals",
+    maySummary:
+      "This draft newsletter template uses filler text and placeholder images so future issues can be produced quickly while the final articles, citations, and editorial notes are prepared.",
+    mayMetaOne: "Editor draft",
+    mayMetaTwo: "5 placeholder articles",
+    mayMetaThree: "Image-ready layout",
+    mayHeroCaption: "Placeholder hero image for the May issue.",
+    mayEditorKicker: "Editor's note",
+    mayEditorTitle: "Use this page as the repeatable issue framework",
+    mayEditorBody:
+      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer at sem vitae neque facilisis porttitor. Replace this paragraph with the editor's monthly overview, key legal themes, and short reader guidance for the issue.",
+    mayFeatureKicker: "Featured article",
+    mayFeatureTitle: "Cross-border transaction checklist for legal teams",
+    mayFeatureBodyOne:
+      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse potenti. Donec vitae arcu non justo tincidunt faucibus. Use this space for a practical legal update, a client-facing explanation of new rules, or a summary of a recent court decision.",
+    mayFeatureBodyTwo:
+      "Curabitur rhoncus, velit in placerat feugiat, justo nibh consequat lorem, id imperdiet arcu lorem sed turpis. Add citations, jurisdiction notes, and action items before publishing the final issue.",
+    mayRoundupKicker: "Issue roundup",
+    mayRoundupTitle: "Placeholder articles for the May newsletter",
+    mayCardOneTag: "Transactions",
+    mayCardOneTitle: "Due diligence questions before signing",
+    mayCardOneBody:
+      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Add deal-specific risk factors, approval steps, and suggested next actions here.",
+    mayCardTwoTag: "Disputes",
+    mayCardTwoTitle: "Preservation reminders for distributed teams",
+    mayCardTwoBody:
+      "Vivamus aliquet magna at turpis porttitor, eget aliquam sem commodo. Replace with discovery, litigation hold, or arbitration updates.",
+    mayCardThreeTag: "Compliance",
+    mayCardThreeTitle: "Regulatory calendar items to watch",
+    mayCardThreeBody:
+      "Praesent sed augue sed arcu suscipit feugiat. Use this card for agency deadlines, reporting obligations, and internal control reminders.",
+    mayImageKicker: "Visual story slot",
+    mayImageTitle: "Add a market map, chart, or regional image here",
+    mayImageBody:
+      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. This section is designed for a larger image-supported article, such as a regional enforcement map, a transaction timeline, or a short visual explainer.",
+    mayCtaKicker: "Next step",
+    mayCtaTitle: "Replace filler copy before publishing",
+    mayCtaBody:
+      "Swap in final article text, update image captions, confirm translations, and connect the subscribe form to the selected backend database before sending the newsletter to readers.",
     archiveKicker: "Issue archive",
     archiveTitle: "Earlier editions",
     archiveOneMonth: "May 2026",
@@ -105,9 +146,9 @@ const translations = {
       "这是一份精致的法律新闻月刊，汇集合规、争议、交易、雇佣和隐私领域的分散更新，帮助繁忙的管理者快速发现重点。",
     heroPrimary: "阅读最新一期",
     heroSecondary: "获取每月更新",
-    issueMonth: "2026 年 6 月刊",
+    issueMonth: "2026 年 5 月刊",
     issueNo: "第 18 期",
-    issueTitle: "董事会简报：监管正在变化",
+    issueTitle: "跨境交易中的风险信号",
     issueSummary:
       "本期追踪快速变化的执法重点、合同风险信号以及正在影响下一季度的诉讼趋势。",
     tickerLabel: "法律快讯",
@@ -168,6 +209,47 @@ const translations = {
     editorialThreeTitle: "作为增长伙伴的法律职能",
     editorialThreeBody:
       "优秀的法务团队通过提前定义可接受风险、可复用流程和升级节点，帮助领导者更快行动。",
+    mayBackLink: "返回所有月刊",
+    mayKicker: "2026 年 5 月模板刊",
+    mayTitle: "跨境交易中的风险信号",
+    maySummary:
+      "这份月刊草稿模板使用占位文字和占位图片，方便在最终文章、引用和编辑说明准备完成前，快速制作后续刊物。",
+    mayMetaOne: "编辑草稿",
+    mayMetaTwo: "5 篇占位文章",
+    mayMetaThree: "可放置图片的版式",
+    mayHeroCaption: "5 月刊的占位主图。",
+    mayEditorKicker: "编辑说明",
+    mayEditorTitle: "将此页面作为可重复使用的刊物框架",
+    mayEditorBody:
+      "此处为占位文字。请将本段替换为编辑的月度概览、关键法律主题，以及面向读者的简短阅读指引。",
+    mayFeatureKicker: "重点文章",
+    mayFeatureTitle: "法务团队跨境交易核对清单",
+    mayFeatureBodyOne:
+      "此处为占位文字。可用于放置实用法律更新、面向客户的新规则说明，或近期法院裁判摘要。",
+    mayFeatureBodyTwo:
+      "发布最终刊物前，请加入引用、适用法域说明和可执行事项。",
+    mayRoundupKicker: "本期汇总",
+    mayRoundupTitle: "5 月月刊的占位文章",
+    mayCardOneTag: "交易",
+    mayCardOneTitle: "签署前的尽职调查问题",
+    mayCardOneBody:
+      "此处为占位文字。可加入交易相关风险因素、审批步骤和建议的下一步行动。",
+    mayCardTwoTag: "争议",
+    mayCardTwoTitle: "分布式团队的证据保全提醒",
+    mayCardTwoBody:
+      "此处为占位文字。可替换为证据开示、诉讼保留或仲裁更新。",
+    mayCardThreeTag: "合规",
+    mayCardThreeTitle: "值得关注的监管日历事项",
+    mayCardThreeBody:
+      "此处为占位文字。可用于机构期限、报告义务和内部控制提醒。",
+    mayImageKicker: "视觉文章位置",
+    mayImageTitle: "在此添加市场地图、图表或区域图片",
+    mayImageBody:
+      "此处为占位文字。本节适合放置带有较大图片的文章，例如区域执法地图、交易时间线或简短视觉说明。",
+    mayCtaKicker: "下一步",
+    mayCtaTitle: "发布前替换占位内容",
+    mayCtaBody:
+      "请替换最终文章文字、更新图片说明、确认翻译，并在发送给读者前将订阅表单连接到选定的后端数据库。",
     archiveKicker: "往期归档",
     archiveTitle: "早期刊物",
     archiveOneMonth: "2026 年 5 月",
@@ -198,9 +280,9 @@ const translations = {
       "這是一份精緻的法律新聞月刊，匯集合規、爭議、交易、僱傭和隱私領域的分散更新，協助忙碌的管理者快速掌握重點。",
     heroPrimary: "閱讀最新一期",
     heroSecondary: "取得每月更新",
-    issueMonth: "2026 年 6 月刊",
+    issueMonth: "2026 年 5 月刊",
     issueNo: "第 18 期",
-    issueTitle: "董事會簡報：監管正在變化",
+    issueTitle: "跨境交易中的風險訊號",
     issueSummary:
       "本期追蹤快速變化的執法重點、合約風險訊號，以及正在影響下一季的訴訟趨勢。",
     tickerLabel: "法律快訊",
@@ -261,6 +343,47 @@ const translations = {
     editorialThreeTitle: "作為成長夥伴的法律職能",
     editorialThreeBody:
       "優秀的法務團隊透過提前定義可接受風險、可複用流程和升級節點，協助領導者更快行動。",
+    mayBackLink: "返回所有月刊",
+    mayKicker: "2026 年 5 月模板刊",
+    mayTitle: "跨境交易中的風險訊號",
+    maySummary:
+      "這份月刊草稿模板使用佔位文字和佔位圖片，方便在最終文章、引用和編輯說明準備完成前，快速製作後續刊物。",
+    mayMetaOne: "編輯草稿",
+    mayMetaTwo: "5 篇佔位文章",
+    mayMetaThree: "可放置圖片的版式",
+    mayHeroCaption: "5 月刊的佔位主圖。",
+    mayEditorKicker: "編輯說明",
+    mayEditorTitle: "將此頁面作為可重複使用的刊物框架",
+    mayEditorBody:
+      "此處為佔位文字。請將本段替換為編輯的月度概覽、關鍵法律主題，以及面向讀者的簡短閱讀指引。",
+    mayFeatureKicker: "重點文章",
+    mayFeatureTitle: "法務團隊跨境交易核對清單",
+    mayFeatureBodyOne:
+      "此處為佔位文字。可用於放置實用法律更新、面向客戶的新規則說明，或近期法院裁判摘要。",
+    mayFeatureBodyTwo:
+      "發布最終刊物前，請加入引用、適用法域說明和可執行事項。",
+    mayRoundupKicker: "本期彙總",
+    mayRoundupTitle: "5 月月刊的佔位文章",
+    mayCardOneTag: "交易",
+    mayCardOneTitle: "簽署前的盡職調查問題",
+    mayCardOneBody:
+      "此處為佔位文字。可加入交易相關風險因素、審批步驟和建議的下一步行動。",
+    mayCardTwoTag: "爭議",
+    mayCardTwoTitle: "分散式團隊的證據保全提醒",
+    mayCardTwoBody:
+      "此處為佔位文字。可替換為證據開示、訴訟保留或仲裁更新。",
+    mayCardThreeTag: "合規",
+    mayCardThreeTitle: "值得關注的監管日曆事項",
+    mayCardThreeBody:
+      "此處為佔位文字。可用於機構期限、報告義務和內部控制提醒。",
+    mayImageKicker: "視覺文章位置",
+    mayImageTitle: "在此新增市場地圖、圖表或區域圖片",
+    mayImageBody:
+      "此處為佔位文字。本節適合放置帶有較大圖片的文章，例如區域執法地圖、交易時間線或簡短視覺說明。",
+    mayCtaKicker: "下一步",
+    mayCtaTitle: "發布前替換佔位內容",
+    mayCtaBody:
+      "請替換最終文章文字、更新圖片說明、確認翻譯，並在寄送給讀者前將訂閱表單連接到選定的後端資料庫。",
     archiveKicker: "往期歸檔",
     archiveTitle: "早期刊物",
     archiveOneMonth: "2026 年 5 月",
