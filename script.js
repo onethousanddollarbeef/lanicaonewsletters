@@ -7,9 +7,9 @@ const translations = {
     navBriefs: "Briefs",
     navSubscribe: "Subscribe",
     heroKicker: "Monthly legal intelligence",
-    heroTitle: "Practical legal news for founders, executives, and in-house teams.",
+    heroTitle: "Practical legal news centered around immigration policy for those who want to stay in the know.",
     heroSummary:
-      "A polished law newsletter with scattered updates across compliance, disputes, transactions, employment, and privacy so busy leaders can spot what matters quickly.",
+      "North America Legal Monthly publishes a monthly newsletter with updates across compliance, immigration, and politics for readers to stay up-to-date.",
     heroPrimary: "Read the latest issue",
     heroSecondary: "Get monthly updates",
     issueMonth: "May 2026 Issue",
@@ -49,24 +49,24 @@ const translations = {
       "Courts continue to ask who owned preservation decisions, when legal holds were refreshed, and how collaboration tools were searched.",
     briefsKicker: "Rapid briefs",
     briefsTitle: "News scattered throughout the legal landscape",
-    briefOneDate: "Jun 2",
-    briefOneTitle: "Treasury expands beneficial ownership FAQs",
+    briefOneDate: "May 22",
+    briefOneTitle: "USCIS and Adjustment of Status",
     briefOneBody:
-      "Reporting companies get new examples for subsidiaries, pooled investment vehicles, and senior officer changes.",
-    briefTwoDate: "May 28",
-    briefTwoTitle: "Appellate panel narrows arbitration carve-out",
+      "U.S. Citizenship and Immigration Services Will Grant ‘Adjustment of Status’ Only in Extraordinary Circumstances. On June 2, 2026, a USCIS spokesperson has gone on to clarify that most people should likely be able to continue on their current path.",
+    briefTwoDate: "May 08",
+    briefTwoTitle: "Duration of Status",
     briefTwoBody:
-      "The opinion highlights the need to reconcile emergency relief clauses with broad delegation language.",
+      "The U.S. The Department of Homeland Security (DHS) proposed a rule that would eliminate the longstanding duration of the status system for individuals admitted as foreign students, exchange visitors, or representatives of foreign media.",
     briefThreeDate: "May 21",
     briefThreeTitle: "Healthcare enforcement focuses on vendor oversight",
     briefThreeBody:
       "Recent settlements point to documented monitoring, cyber diligence, and audit rights as key risk reducers.",
     editorialsKicker: "Editorials",
-    editorialsTitle: "Perspective from the legal desk",
+    editorialsTitle: "AI in the Legal World",
     editorialOneTag: "Governance",
-    editorialOneTitle: "Why board records matter before a dispute begins",
+    editorialOneTitle: "AI in the Legal World",
     editorialOneBody:
-      "Strong minutes, clear conflicts review, and documented alternatives can turn routine governance habits into decisive evidence when a transaction is questioned.",
+      "Put text here when done with editorial",
     editorialTwoTag: "Regulation",
     editorialTwoTitle: "Reading agency letters as early warning signals",
     editorialTwoBody:
@@ -141,9 +141,9 @@ const translations = {
     navBriefs: "快讯",
     navSubscribe: "订阅",
     heroKicker: "每月法律情报",
-    heroTitle: "为创始人、高管和企业法务团队准备的实用法律新闻。",
+    heroTitle: "以移民政策为中心的实用法律新闻，面向希望及时了解动态的读者。",
     heroSummary:
-      "这是一份精致的法律新闻月刊，汇集合规、争议、交易、雇佣和隐私领域的分散更新，帮助繁忙的管理者快速发现重点。",
+      "North America Legal Monthly 每月发布通讯，提供合规、移民和政治领域的更新，帮助读者掌握最新动态。",
     heroPrimary: "阅读最新一期",
     heroSecondary: "获取每月更新",
     issueMonth: "2026 年 5 月刊",
@@ -183,24 +183,24 @@ const translations = {
       "法院持续询问谁负责证据保全决策、何时更新法律保留通知，以及如何检索协作工具。",
     briefsKicker: "快速简报",
     briefsTitle: "散布于法律环境中的新闻",
-    briefOneDate: "6 月 2 日",
-    briefOneTitle: "财政部扩展受益所有权常见问题",
+    briefOneDate: "5 月 22 日",
+    briefOneTitle: "USCIS 与身份调整",
     briefOneBody:
-      "申报公司获得了关于子公司、集合投资工具和高级管理人员变更的新示例。",
-    briefTwoDate: "5 月 28 日",
-    briefTwoTitle: "上诉法院缩小仲裁例外范围",
+      "美国公民及移民服务局表示，只有在特殊情况下才会批准身份调整。2026 年 6 月 2 日，USCIS 发言人进一步澄清，大多数人很可能仍可继续现有路径。",
+    briefTwoDate: "5 月 08 日",
+    briefTwoTitle: "身份有效期",
     briefTwoBody:
-      "该意见强调，应协调紧急救济条款与宽泛授权语言之间的关系。",
+      "美国国土安全部（DHS）提出一项规则，将取消长期适用于外国学生、交流访问者和外国媒体代表的身份有效期制度。",
     briefThreeDate: "5 月 21 日",
     briefThreeTitle: "医疗执法关注供应商监督",
     briefThreeBody:
       "近期和解显示，书面化监控、网络安全尽调和审计权是降低风险的关键。",
     editorialsKicker: "社论",
-    editorialsTitle: "来自法律编辑台的观点",
+    editorialsTitle: "法律世界中的 AI",
     editorialOneTag: "治理",
-    editorialOneTitle: "为什么董事会记录在争议发生前就很重要",
+    editorialOneTitle: "法律世界中的 AI",
     editorialOneBody:
-      "完善的会议记录、清晰的冲突审查和记录在案的替代方案，可以在交易受到质疑时，把日常治理习惯转化为关键证据。",
+      "社论完成后在这里放置文本。",
     editorialTwoTag: "监管",
     editorialTwoTitle: "把机构信函视为早期预警信号",
     editorialTwoBody:
@@ -275,9 +275,9 @@ const translations = {
     navBriefs: "快訊",
     navSubscribe: "訂閱",
     heroKicker: "每月法律情報",
-    heroTitle: "為創辦人、高階主管和企業法務團隊準備的實用法律新聞。",
+    heroTitle: "以移民政策為中心的實用法律新聞，面向希望即時掌握動態的讀者。",
     heroSummary:
-      "這是一份精緻的法律新聞月刊，匯集合規、爭議、交易、僱傭和隱私領域的分散更新，協助忙碌的管理者快速掌握重點。",
+      "North America Legal Monthly 每月發布通訊，提供合規、移民和政治領域的更新，幫助讀者掌握最新動態。",
     heroPrimary: "閱讀最新一期",
     heroSecondary: "取得每月更新",
     issueMonth: "2026 年 5 月刊",
@@ -317,24 +317,24 @@ const translations = {
       "法院持續詢問誰負責證據保全決策、何時更新法律保留通知，以及如何檢索協作工具。",
     briefsKicker: "快速簡報",
     briefsTitle: "散布於法律環境中的新聞",
-    briefOneDate: "6 月 2 日",
-    briefOneTitle: "財政部擴展受益所有權常見問題",
+    briefOneDate: "5 月 22 日",
+    briefOneTitle: "USCIS 與身分調整",
     briefOneBody:
-      "申報公司取得了關於子公司、集合投資工具和高階管理人員變更的新範例。",
-    briefTwoDate: "5 月 28 日",
-    briefTwoTitle: "上訴法院縮小仲裁例外範圍",
+      "美國公民及移民服務局表示，只有在特殊情況下才會批准身分調整。2026 年 6 月 2 日，USCIS 發言人進一步澄清，大多數人很可能仍可繼續現有路徑。",
+    briefTwoDate: "5 月 08 日",
+    briefTwoTitle: "身分有效期",
     briefTwoBody:
-      "該意見強調，應協調緊急救濟條款與寬泛授權語言之間的關係。",
+      "美國國土安全部（DHS）提出一項規則，將取消長期適用於外國學生、交流訪問者和外國媒體代表的身分有效期制度。",
     briefThreeDate: "5 月 21 日",
     briefThreeTitle: "醫療執法關注供應商監督",
     briefThreeBody:
       "近期和解顯示，書面化監控、網路安全盡調和審計權是降低風險的關鍵。",
     editorialsKicker: "社論",
-    editorialsTitle: "來自法律編輯台的觀點",
+    editorialsTitle: "法律世界中的 AI",
     editorialOneTag: "治理",
-    editorialOneTitle: "為什麼董事會紀錄在爭議發生前就很重要",
+    editorialOneTitle: "法律世界中的 AI",
     editorialOneBody:
-      "完善的會議紀錄、清楚的衝突審查和記錄在案的替代方案，可以在交易受到質疑時，把日常治理習慣轉化為關鍵證據。",
+      "社論完成後在這裡放置文字。",
     editorialTwoTag: "監管",
     editorialTwoTitle: "把機構信函視為早期預警訊號",
     editorialTwoBody:
@@ -622,6 +622,39 @@ const translatedElements = document.querySelectorAll("[data-i18n]");
 const mayArticle = document.querySelector("[data-may-article]");
 const defaultMayArticleHtml = mayArticle?.innerHTML;
 const subscribeForm = document.querySelector(".subscribe-form");
+const issueSlides = document.querySelectorAll(".issue-slide");
+const issueSlideControls = document.querySelectorAll(".issue-slide-control");
+let activeIssueSlide = 0;
+let issueSlideTimer;
+
+function showIssueSlide(index) {
+  if (!issueSlides.length) {
+    return;
+  }
+
+  activeIssueSlide = (index + issueSlides.length) % issueSlides.length;
+
+  issueSlides.forEach((slide, slideIndex) => {
+    slide.classList.toggle("active", slideIndex === activeIssueSlide);
+  });
+
+  issueSlideControls.forEach((control, controlIndex) => {
+    const isActive = controlIndex === activeIssueSlide;
+    control.classList.toggle("active", isActive);
+    control.setAttribute("aria-pressed", String(isActive));
+  });
+}
+
+function startIssueSlideshow() {
+  if (issueSlides.length < 2) {
+    return;
+  }
+
+  window.clearInterval(issueSlideTimer);
+  issueSlideTimer = window.setInterval(() => {
+    showIssueSlide(activeIssueSlide + 1);
+  }, 4500);
+}
 
 function renderMayArticle(language) {
   if (!mayArticle || !defaultMayArticleHtml) {
@@ -674,4 +707,13 @@ subscribeForm?.addEventListener("submit", (event) => {
   event.preventDefault();
 });
 
+issueSlideControls.forEach((control) => {
+  control.addEventListener("click", () => {
+    showIssueSlide(Number(control.dataset.slideIndex));
+    startIssueSlideshow();
+  });
+});
+
+showIssueSlide(0);
+startIssueSlideshow();
 setLanguage(localStorage.getItem("newsletter-language") || "en");
