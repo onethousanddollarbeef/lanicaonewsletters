@@ -321,35 +321,6 @@ h1 {
   line-height: 1.72;
 }
 
-.issue-stats {
-  display: grid;
-  grid-template-columns: repeat(3, 1fr);
-  gap: 12px;
-  margin-top: 28px;
-}
-
-.issue-stats div {
-  padding: 16px 12px;
-  border: 1px solid rgba(255, 255, 255, 0.22);
-  border-radius: 18px;
-  background: rgba(255, 255, 255, 0.08);
-}
-
-.issue-stats strong,
-.issue-stats span {
-  display: block;
-}
-
-.issue-stats strong {
-  margin-bottom: 3px;
-  font-size: 1.65rem;
-}
-
-.issue-stats span {
-  color: rgba(255, 253, 248, 0.72);
-  font-size: 0.78rem;
-  font-weight: 700;
-}
 
 .ticker-bar {
   display: grid;
@@ -738,7 +709,6 @@ h1 {
     white-space: normal;
   }
 
-  .issue-stats,
   .article-grid,
   .editorial-grid,
   .archive-grid {

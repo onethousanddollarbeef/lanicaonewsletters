@@ -17,9 +17,6 @@ const translations = {
     issueTitle: "Boardroom Briefing: Regulation in Motion",
     issueSummary:
       "This edition tracks fast-moving enforcement priorities, contract risk signals, and litigation trends shaping the next quarter.",
-    issueStatOne: "news notes",
-    issueStatTwo: "practice areas",
-    issueStatThree: "client alerts",
     tickerLabel: "Breaking legal notes",
     tickerText:
       "FTC non-compete rule challenges continue | SEC cyber disclosure letters increase | New state privacy laws take effect this summer",
@@ -113,9 +110,6 @@ const translations = {
     issueTitle: "董事会简报：监管正在变化",
     issueSummary:
       "本期追踪快速变化的执法重点、合同风险信号以及正在影响下一季度的诉讼趋势。",
-    issueStatOne: "新闻要点",
-    issueStatTwo: "业务领域",
-    issueStatThree: "客户提醒",
     tickerLabel: "法律快讯",
     tickerText:
       "FTC 竞业禁止规则挑战仍在继续 | SEC 网络安全披露函增加 | 新州级隐私法将于今夏生效",
@@ -209,9 +203,6 @@ const translations = {
     issueTitle: "董事會簡報：監管正在變化",
     issueSummary:
       "本期追蹤快速變化的執法重點、合約風險訊號，以及正在影響下一季的訴訟趨勢。",
-    issueStatOne: "新聞重點",
-    issueStatTwo: "業務領域",
-    issueStatThree: "客戶提醒",
     tickerLabel: "法律快訊",
     tickerText:
       "FTC 競業禁止規則挑戰仍在繼續 | SEC 網路安全揭露函增加 | 新州級隱私法將於今夏生效",
