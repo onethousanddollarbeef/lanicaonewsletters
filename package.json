@@ -1,0 +1,15 @@
+{
+  "name": "lanicao-newsletters",
+  "version": "1.0.0",
+  "private": true,
+  "description": "A law firm newsletter website with English, Simplified Chinese, and Traditional Chinese content.",
+  "type": "module",
+  "scripts": {
+    "start": "vite --host 0.0.0.0",
+    "build": "vite build",
+    "preview": "vite preview --host 0.0.0.0"
+  },
+  "devDependencies": {
+    "vite": "^7.2.4"
+  }
+}
