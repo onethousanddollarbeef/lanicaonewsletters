@@ -1,4 +1,4 @@
-# North America Legal Monthly
+# Lanicao Newsletters
 
 A responsive law firm newsletter website with English, Simplified Chinese, and Traditional Chinese content.
 
