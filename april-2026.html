@@ -184,7 +184,7 @@
         article.paras.forEach((paragraph) => chunks.push(`<p>${escapeHtml(paragraph)}</p>`));
       });
       chunks.push(`<img src="${escapeHtml(images[images.length - 1])}" alt="April newsletter closing image" />`);
-      contentEl.innerHTML = chunks.join('\\n');
+      <!--contentEl.innerHTML = chunks.join('\\n');-->
 
       Object.entries(ui[selectedLang]).forEach(([key, value]) => {
         if (key === 'directoryItems' || key === 'page') return;
