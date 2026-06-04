@@ -149,23 +149,23 @@
 <script>
   (function () {
     const images = [
-      "https://rollcall.com/app/uploads/2020/10/GettyImages-1229228566.jpg?fit=2048,1152",
-      "https://cdn.sanity.io/images/mz2hls6g/production/6b77a3ca6044ad1dced643a96fb592b74bc13294-3000x2000.jpg?w=1600&q=75&fit=clip&auto=format",
-      "https://i0.wp.com/diamondbacklegal.com/wp-content/uploads/2023/01/shutterstock_1946720896.jpg",
-      "https://media-cldnry.s-nbcnews.com/image/upload/t_fit-1000w,f_auto,q_auto:best/rockcms/2026-02/260225-trump-accounts-mn-1400-fbc542.jpg",
-      "https://images.pexels.com/photos/261621/pexels-photo-261621.jpeg",
-      "https://www.whitehouse.gov/wp-content/uploads/2025/10/P20251029DT-2177.jpg?resize=2048,1365",
-      "https://static.the-independent.com/s3fs-public/thumbnails/image/2012/05/29/21/pg-18-ill-rex.jpg?quality=75&width=1250&crop=3%3A2%2Csmart&auto=webp",
-      "https://myattorneyusa.com/wp-content/uploads/2024/06/the-judicial-robe.jpg",
-      "https://upload.wikimedia.org/wikipedia/commons/0/02/Robert_F._Kennedy_Department_of_Justice_Building.jpg",
-      "https://cdn.shopify.com/s/files/1/0888/9240/8090/files/The-meaning-of-the-colors-red-white-and-blue-on-the-American-flag.jpg?v=1734891935",
-      "https://images.foxtv.com/static.fox13news.com/www.fox13news.com/content/uploads/2024/02/764/432/GettyImages-453347919.jpg?ve=1&tl=1",
-      "https://framerusercontent.com/images/Xs8wAspcJTC6FzyHgDfGG6XUzE.jpg?width=2000&height=1334",
-      "https://media.wusa9.com/assets/WUSA/images/a9f3e3bb-b021-4434-b89f-4d890582744a/20260218T215548/a9f3e3bb-b021-4434-b89f-4d890582744a_1920x1080.jpg",
-      "https://static01.nyt.com/images/2026/05/26/multimedia/26pol-whois-cornyn-1-bmjh/26pol-whois-cornyn-1-bmjh-superJumbo.jpg?quality=75&auto=webp",
-      "https://i.ytimg.com/vi/GqWs5OM6c5w/maxresdefault.jpg",
-      "https://static01.nyt.com/images/2026/05/19/multimedia/9biz-meta-layoffs-hpkt/9biz-meta-layoffs-hpkt-superJumbo.jpg?quality=75&auto=webp",
-      "https://ichef.bbci.co.uk/ace/standard/819/cpsprodpb/f703/live/c1543950-0770-11f1-95b3-3990922567a7.jpg"
+      "https://thehill.com/wp-content/uploads/sites/2/2023/02/craneeli_010623gn_w.jpg?w=1280&h=720&crop=1",
+      "https://floridapolitics.com/wp-content/uploads/2022/03/Philippe-Bien-Aime.jpg",
+      "https://www.taxoutreach.org/wp-content/uploads/immigrant-family.jpg",
+      "https://npr.brightspotcdn.com/dims3/default/strip/false/crop/5616x3744+0+0/resize/5616?url=http%3A%2F%2Fnpr-brightspot.s3.amazonaws.com%2F92%2F54%2F2ee4612c4d38b1afa70577f3b81e%2Fgettyimages-2272612956.jpg",
+      "https://media.assettype.com/freepressjournal/2026-03-20/u91qbqjb/ChatGPT-Image-Mar-20-2026-060306-PM.png?width=1200",
+      "https://www.aila.org/files/o-files/view-file/7cbdd304-5f22-4902-8743-93468639ec5b",
+      "https://media.cnn.com/api/v1/images/stellar/prod/gettyimages-2220170402.jpg?c=original&q=w_860,c_fill/f_avif",
+      "https://news.harvard.edu/gazette/wp-content/uploads/2023/09/debt_jail_2500.jpg",
+      "https://media-cldnry.s-nbcnews.com/image/upload/t_fit-760w,f_avif,q_auto:eco,dpr_2/rockcms/2026-03/260323-ice-airport-vl-1106a-a47b0c.jpg",
+      "https://www.portseattle.org/sites/default/files/styles/detailpageimagesize/public/2022-05/IAF-opening-20220419-079.JPG?itok=SvoaNk4U",
+      "https://static.startuptalky.com/2021/07/Find-Social-Media-Profile-by-Email---StartupTalky.jpg",
+      "https://malesculaw.com/wp-content/uploads/2023/09/H2B-Visa.jpg",
+      "https://www.lawsb.com/wp-content/uploads/2024/10/how-to-prepare-for-us-visa-interview-hero.jpg.webp",
+      "https://immigration.usattorneys.com/wp-content/uploads/sites/2/2020/12/photodune-3277035-us-department-of-homeland-security-logo-xs-548x321.jpg",
+      "https://substackcdn.com/image/fetch/$s_!HXrO!,w_1456,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fc8d345de-3158-41e4-a3c5-7ee8ba33ac17_1536x1024.png",
+      "https://i.abcnewsfe.com/a/bc2751ac-06bc-4573-ac3d-c551f83b373d/trump-passport-ht-gmh-260428_1777408523256_hpMain_16x9.jpg?w=992",
+      "https://thunderword.highline.edu/wp-content/uploads/2025/04/trump-tariffs.png"
     ];
 
     const content = JSON.parse(document.getElementById("april-newsletter-data").textContent);
@@ -204,18 +204,16 @@
           chunks.push(`<p class="page-label">${escapeHtml(pageLabel(selectedLang, pageNumber))}</p>`);
         }
 
-        if (number > 1) {
-          chunks.push(`<img src="${escapeHtml(images[number - 2])}" alt="April newsletter article image ${number - 1}" />`);
-        }
-
         chunks.push(`<h2>${escapeHtml(article.title)}</h2>`);
 
         article.paras.forEach((paragraph) => {
           chunks.push(`<p>${escapeHtml(paragraph)}</p>`);
         });
-      });
 
-      chunks.push(`<img src="${escapeHtml(images[images.length - 1])}" alt="April newsletter closing image" />`);
+        if (images[index]) {
+          chunks.push(`<img src="${escapeHtml(images[index])}" alt="April newsletter article image ${number}" />`);
+        }
+      });
 
       contentEl.innerHTML = chunks.join("");
 
