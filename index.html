@@ -174,7 +174,7 @@
           <div>
             <p class="section-kicker" data-i18n="subscribeKicker">Stay current</p>
             <h2 id="subscribe-title" data-i18n="subscribeTitle">Get the newsletter in your inbox</h2>
-            <p>
+            <p data-i18n="subscribeBody">
               Receive monthly legal updates in English, Simplified Chinese, or Traditional Chinese.
             </p>
           </div>
@@ -183,6 +183,8 @@
                   class="subscribe-form"
                   action="https://lanicao.us5.list-manage.com/subscribe/post?u=ea30ef5c1c0524a0389794358&amp;id=deebf10677&amp;f_id=005842edf0"
                   method="post"
+                  id="mc-embedded-subscribe-form"
+                  name="mc-embedded-subscribe-form"
                   target="_blank"
                   aria-label="Newsletter subscription form"
           >
@@ -198,12 +200,17 @@
                       required
               />
 
-              <button type="submit" name="subscribe" data-i18n="subscribeButton">
+              <button
+                      type="submit"
+                      name="subscribe"
+                      id="mc-embedded-subscribe"
+                      data-i18n="subscribeButton"
+              >
                 Subscribe
               </button>
             </div>
 
-            <div style="position: absolute; left: -5000px;" aria-hidden="true">
+            <div aria-hidden="true" style="position: absolute; left: -5000px;">
               <input
                       type="text"
                       name="b_ea30ef5c1c0524a0389794358_deebf10677"
@@ -212,7 +219,7 @@
               />
             </div>
 
-            <p>
+            <p class="form-note" data-i18n="formNote">
               Submit your email to receive future newsletter updates.
             </p>
           </form>
