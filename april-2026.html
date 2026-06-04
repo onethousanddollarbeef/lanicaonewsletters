@@ -148,62 +148,116 @@
 <script type="application/json" id="april-header-data">{"en": {"title": "Legal Curiosities: What Happened in U.S. Law in April?", "meta": "April, 2026 | Vol. 2, No. 4", "publication": "North American Legal Monthly", "byline": "Editorial Department of North American Legal Monthly", "contact": "Contact us for legal news updates and advertisement placements: Phone: 425-455-9898 | Email: laweditor@outlook.com", "back": "Back to all newsletters", "directoryTitle": "Professional Services Directory", "directoryItems": ["Immigration Services", "Corporate Legal Counsel", "Investment Risk Mitigation", "Overseas Enforcement of Chinese Judgments", "Business Formation", "Wills & Inheritance"], "page": "Page"}, "zhHans": {"title": "法律奇闻：四月美国法律圈发生了什么？", "meta": "2026年4月 | 第2卷第4期", "publication": "北美法律月刊", "byline": "北美法律月刊编辑部", "contact": "联系我们获取法律新闻更新与广告投放：电话：425-455-9898 | 邮箱：laweditor@outlook.com", "back": "返回全部月刊", "directoryTitle": "专业服务目录", "directoryItems": ["移民服务", "企业法律顾问", "投资风险评估", "中国判决海外执行", "公司设立", "遗嘱与继承"], "page": "第"}, "zhHant": {"title": "法律奇聞：四月美國法律圈發生了什麼？", "meta": "2026年4月 | 第2卷第4期", "publication": "北美法律月刊", "byline": "北美法律月刊編輯部", "contact": "聯絡我們獲取法律新聞更新與廣告投放：電話：425-455-9898 | 信箱：laweditor@outlook.com", "back": "返回全部月刊", "directoryTitle": "專業服務目錄", "directoryItems": ["移民服務", "企業法律顧問", "投資風險評估", "中國判決海外執行", "公司設立", "遺囑與繼承"], "page": "第"}}</script>
 <script>
   (function () {
-    const images = ["https://rollcall.com/app/uploads/2020/10/GettyImages-1229228566.jpg?fit=2048,1152", "https://cdn.sanity.io/images/mz2hls6g/production/6b77a3ca6044ad1dced643a96fb592b74bc13294-3000x2000.jpg?w=1600&q=75&fit=clip&auto=format", "https://i0.wp.com/diamondbacklegal.com/wp-content/uploads/2023/01/shutterstock_1946720896.jpg", "https://media-cldnry.s-nbcnews.com/image/upload/t_fit-1000w,f_auto,q_auto:best/rockcms/2026-02/260225-trump-accounts-mn-1400-fbc542.jpg", "https://images.pexels.com/photos/261621/pexels-photo-261621.jpeg", "https://www.whitehouse.gov/wp-content/uploads/2025/10/P20251029DT-2177.jpg?resize=2048,1365", "https://static.the-independent.com/s3fs-public/thumbnails/image/2012/05/29/21/pg-18-ill-rex.jpg?quality=75&width=1250&crop=3%3A2%2Csmart&auto=webp", "https://myattorneyusa.com/wp-content/uploads/2024/06/the-judicial-robe.jpg", "https://upload.wikimedia.org/wikipedia/commons/0/02/Robert_F._Kennedy_Department_of_Justice_Building.jpg", "https://cdn.shopify.com/s/files/1/0888/9240/8090/files/The-meaning-of-the-colors-red-white-and-blue-on-the-American-flag.jpg?v=1734891935", "https://images.foxtv.com/static.fox13news.com/www.fox13news.com/content/uploads/2024/02/764/432/GettyImages-453347919.jpg?ve=1&tl=1", "https://framerusercontent.com/images/Xs8wAspcJTC6FzyHgDfGG6XUzE.jpg?width=2000&height=1334", "https://media.wusa9.com/assets/WUSA/images/a9f3e3bb-b021-4434-b89f-4d890582744a/20260218T215548/a9f3e3bb-b021-4434-b89f-4d890582744a_1920x1080.jpg", "https://static01.nyt.com/images/2026/05/26/multimedia/26pol-whois-cornyn-1-bmjh/26pol-whois-cornyn-1-bmjh-superJumbo.jpg?quality=75&auto=webp", "https://i.ytimg.com/vi/GqWs5OM6c5w/maxresdefault.jpg", "https://static01.nyt.com/images/2026/05/19/multimedia/9biz-meta-layoffs-hpkt/9biz-meta-layoffs-hpkt-superJumbo.jpg?quality=75&auto=webp", "https://ichef.bbci.co.uk/ace/standard/819/cpsprodpb/f703/live/c1543950-0770-11f1-95b3-3990922567a7.jpg"];
-    const content = JSON.parse(document.getElementById('april-newsletter-data').textContent);
-    const ui = JSON.parse(document.getElementById('april-header-data').textContent);
-    const contentEl = document.getElementById('april-newsletter-content');
-    const directoryEl = document.getElementById('april-directory-list');
+    const images = [
+      "https://rollcall.com/app/uploads/2020/10/GettyImages-1229228566.jpg?fit=2048,1152",
+      "https://cdn.sanity.io/images/mz2hls6g/production/6b77a3ca6044ad1dced643a96fb592b74bc13294-3000x2000.jpg?w=1600&q=75&fit=clip&auto=format",
+      "https://i0.wp.com/diamondbacklegal.com/wp-content/uploads/2023/01/shutterstock_1946720896.jpg",
+      "https://media-cldnry.s-nbcnews.com/image/upload/t_fit-1000w,f_auto,q_auto:best/rockcms/2026-02/260225-trump-accounts-mn-1400-fbc542.jpg",
+      "https://images.pexels.com/photos/261621/pexels-photo-261621.jpeg",
+      "https://www.whitehouse.gov/wp-content/uploads/2025/10/P20251029DT-2177.jpg?resize=2048,1365",
+      "https://static.the-independent.com/s3fs-public/thumbnails/image/2012/05/29/21/pg-18-ill-rex.jpg?quality=75&width=1250&crop=3%3A2%2Csmart&auto=webp",
+      "https://myattorneyusa.com/wp-content/uploads/2024/06/the-judicial-robe.jpg",
+      "https://upload.wikimedia.org/wikipedia/commons/0/02/Robert_F._Kennedy_Department_of_Justice_Building.jpg",
+      "https://cdn.shopify.com/s/files/1/0888/9240/8090/files/The-meaning-of-the-colors-red-white-and-blue-on-the-American-flag.jpg?v=1734891935",
+      "https://images.foxtv.com/static.fox13news.com/www.fox13news.com/content/uploads/2024/02/764/432/GettyImages-453347919.jpg?ve=1&tl=1",
+      "https://framerusercontent.com/images/Xs8wAspcJTC6FzyHgDfGG6XUzE.jpg?width=2000&height=1334",
+      "https://media.wusa9.com/assets/WUSA/images/a9f3e3bb-b021-4434-b89f-4d890582744a/20260218T215548/a9f3e3bb-b021-4434-b89f-4d890582744a_1920x1080.jpg",
+      "https://static01.nyt.com/images/2026/05/26/multimedia/26pol-whois-cornyn-1-bmjh/26pol-whois-cornyn-1-bmjh-superJumbo.jpg?quality=75&auto=webp",
+      "https://i.ytimg.com/vi/GqWs5OM6c5w/maxresdefault.jpg",
+      "https://static01.nyt.com/images/2026/05/19/multimedia/9biz-meta-layoffs-hpkt/9biz-meta-layoffs-hpkt-superJumbo.jpg?quality=75&auto=webp",
+      "https://ichef.bbci.co.uk/ace/standard/819/cpsprodpb/f703/live/c1543950-0770-11f1-95b3-3990922567a7.jpg"
+    ];
+
+    const content = JSON.parse(document.getElementById("april-newsletter-data").textContent);
+    const ui = JSON.parse(document.getElementById("april-header-data").textContent);
+    const contentEl = document.getElementById("april-newsletter-content");
+    const directoryEl = document.getElementById("april-directory-list");
 
     function escapeHtml(value) {
       return String(value)
-              .replace(/&/g, '&amp;')
-              .replace(/</g, '&lt;')
-              .replace(/>/g, '&gt;')
-              .replace(/"/g, '&quot;')
-              .replace(/'/g, '&#039;');
+              .replace(/&/g, "&amp;")
+              .replace(/</g, "&lt;")
+              .replace(/>/g, "&gt;")
+              .replace(/"/g, "&quot;")
+              .replace(/'/g, "&#039;");
     }
 
     function pageLabel(lang, page) {
-      return lang === 'en' ? `Page ${page}` : `第${page}页`;
+      return lang === "en" ? `Page ${page}` : `第${page}页`;
     }
 
     function render(lang) {
-      const selectedLang = content[lang] ? lang : 'en';
+      const selectedLang = content[lang] ? lang : "en";
       const articles = content[selectedLang];
       const chunks = [];
+
       articles.forEach((article, index) => {
         const number = index + 1;
+
         if ([1, 6, 11, 15].includes(number)) {
-          const pageNumber = number === 1 ? 1 : number === 6 ? 2 : number === 11 ? 3 : 4;
+          const pageNumber =
+                  number === 1 ? 1 :
+                          number === 6 ? 2 :
+                                  number === 11 ? 3 :
+                                          4;
+
           chunks.push(`<p class="page-label">${escapeHtml(pageLabel(selectedLang, pageNumber))}</p>`);
         }
+
         if (number > 1) {
           chunks.push(`<img src="${escapeHtml(images[number - 2])}" alt="April newsletter article image ${number - 1}" />`);
         }
+
         chunks.push(`<h2>${escapeHtml(article.title)}</h2>`);
-        article.paras.forEach((paragraph) => chunks.push(`<p>${escapeHtml(paragraph)}</p>`));
+
+        article.paras.forEach((paragraph) => {
+          chunks.push(`<p>${escapeHtml(paragraph)}</p>`);
+        });
       });
+
       chunks.push(`<img src="${escapeHtml(images[images.length - 1])}" alt="April newsletter closing image" />`);
 
+      contentEl.innerHTML = chunks.join("");
+
       Object.entries(ui[selectedLang]).forEach(([key, value]) => {
-        if (key === 'directoryItems' || key === 'page') return;
+        if (key === "directoryItems" || key === "page") return;
+
         const target = document.querySelector(`[data-april-ui="${key}"]`);
-        if (target) target.textContent = value;
+        if (target) {
+          target.textContent = value;
+        }
       });
-      directoryEl.innerHTML = ui[selectedLang].directoryItems.map((item) => `<li>${escapeHtml(item)}</li>`).join('');
-      document.documentElement.lang = selectedLang === 'zhHant' ? 'zh-Hant' : selectedLang === 'zhHans' ? 'zh-Hans' : 'en';
-      document.querySelectorAll('.language-button').forEach((button) => {
-        button.classList.toggle('active', button.dataset.language === selectedLang);
+
+      directoryEl.innerHTML = ui[selectedLang].directoryItems
+              .map((item) => `<li>${escapeHtml(item)}</li>`)
+              .join("");
+
+      document.documentElement.lang =
+              selectedLang === "zhHant" ? "zh-Hant" :
+                      selectedLang === "zhHans" ? "zh-Hans" :
+                              "en";
+
+      document.querySelectorAll(".language-button").forEach((button) => {
+        button.classList.toggle("active", button.dataset.language === selectedLang);
       });
+
+      localStorage.setItem("newsletterLanguage", selectedLang);
+      localStorage.setItem("language", selectedLang);
     }
 
-    document.querySelectorAll('.language-button[data-language]').forEach((button) => {
-      button.addEventListener('click', () => render(button.dataset.language));
+    document.querySelectorAll(".language-button[data-language]").forEach((button) => {
+      button.addEventListener("click", () => {
+        render(button.dataset.language);
+      });
     });
 
-    const storedLang = window.localStorage && (localStorage.getItem('newsletterLanguage') || localStorage.getItem('language'));
-    const activeLang = document.querySelector('.language-button.active')?.dataset.language;
-    render(content[storedLang] ? storedLang : content[activeLang] ? activeLang : 'en');
+    const storedLang =
+            localStorage.getItem("newsletterLanguage") ||
+            localStorage.getItem("language");
+
+    const activeLang = document.querySelector(".language-button.active")?.dataset.language;
+
+    render(content[storedLang] ? storedLang : content[activeLang] ? activeLang : "en");
   })();
 </script>
 </body>
