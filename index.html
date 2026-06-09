@@ -5,37 +5,38 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <meta
           name="description"
-          content="Lanicao Legal Ledger is a law firm newsletter website featuring legal news, regulatory updates, and multilingual translations."
+          content="North America Legal Monthly is a multilingual newsletter featuring legal news, immigration updates, regulatory developments, editorials, and brief U.S. news summaries."
+          data-i18n-meta-description="metaDescription"
   />
-  <title>Lanicao Legal Ledger</title>
+  <title>North America Legal Monthly</title>
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
   <link
           href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Libre+Baskerville:wght@400;700&display=swap"
           rel="stylesheet"
   />
-  <link rel="stylesheet" href="/styles.css" />
+  <script type="module" crossorigin src="/lanicaonewsletters/assets/script-BUOrxcsY.js"></script>
+  <link rel="stylesheet" crossorigin href="/lanicaonewsletters/assets/script-MeIPmVLV.css">
 </head>
 <body id="top">
 <div class="page-shell">
   <header class="site-header">
-    <a class="brand" href="#" aria-label="Lanicao Legal Ledger home">
-      <span class="brand-mark">LL</span>
+    <a class="brand" href="#" aria-label="North America Legal Monthly home" data-i18n-aria-label="brandAria">
+      <span class="brand-mark">NA</span>
       <span>
-            <span class="eyebrow" data-i18n="brandEyebrow">Lanicao Law Group</span>
-            <span class="brand-name" data-i18n="brandName">Legal Ledger</span>
+            <span class="eyebrow" data-i18n="brandEyebrow">News and Updates</span>
+            <span class="brand-name" data-i18n="brandName">North America Legal Monthly</span>
           </span>
     </a>
 
-    <nav class="main-nav" aria-label="Primary navigation">
+    <nav class="main-nav" aria-label="Primary navigation" data-i18n-aria-label="navAria">
       <a href="#latest" data-i18n="navLatest">Latest</a>
-      <a href="#insights" data-i18n="navInsights">Insights</a>
+      <a href="#editorials" data-i18n="navEditorials">Editorials</a>
       <a href="#briefs" data-i18n="navBriefs">Briefs</a>
-      <a href="#archives" data-i18n="navArchives">Archives</a>
       <a href="#subscribe" data-i18n="navSubscribe">Subscribe</a>
     </nav>
 
-    <div class="language-switcher" aria-label="Language selector">
+    <div class="language-switcher" aria-label="Language selector" data-i18n-aria-label="languageAria">
       <button class="language-button active" type="button" data-language="en">EN</button>
       <button class="language-button" type="button" data-language="zhHans">简体</button>
       <button class="language-button" type="button" data-language="zhHant">繁體</button>
@@ -43,138 +44,47 @@
   </header>
 
   <main>
-    <section class="hero-section" aria-labelledby="hero-title">
+    <section class="hero-section" id="latest" aria-labelledby="hero-title">
       <div class="hero-copy">
         <p class="section-kicker" data-i18n="heroKicker">Monthly legal intelligence</p>
         <h1 id="hero-title" data-i18n="heroTitle">
-          Practical legal news for founders, executives, and in-house teams.
+          Practical legal news for readers who want to stay up to date.
         </h1>
         <p class="hero-summary" data-i18n="heroSummary">
-          A polished law newsletter with scattered updates across compliance, disputes, transactions,
-          employment, and privacy so busy leaders can spot what matters quickly.
+          A multilingual legal newsletter covering immigration, economic policy, regulatory updates, and major U.S. legal developments.
         </p>
         <div class="hero-actions">
-          <a class="button button-primary" href="#latest" data-i18n="heroPrimary">Read the latest issue</a>
+          <a class="button button-primary" href="may-2026.html" data-i18n="heroPrimary">Read the latest issue</a>
           <a class="button button-secondary" href="#subscribe" data-i18n="heroSecondary">Get monthly updates</a>
         </div>
       </div>
 
-      <article class="issue-card" aria-label="Featured newsletter issue">
+      <a class="issue-card" href="may-2026.html" aria-label="Read the May 2026 newsletter issue" data-i18n-aria-label="issueAria">
         <div class="issue-topline">
-          <span data-i18n="issueMonth">June 2026 Issue</span>
-          <span data-i18n="issueNo">Vol. 18</span>
+          <span data-i18n="issueMonth">May 2026 Issue</span>
+          <span data-i18n="issueNo">2026 Vol. 5</span>
         </div>
-        <h2 data-i18n="issueTitle">Boardroom Briefing: Regulation in Motion</h2>
+        <h2 data-i18n="issueTitle">Legal Curiosities: What Happened in U.S. Law This Month?</h2>
         <p data-i18n="issueSummary">
-          This edition tracks fast-moving enforcement priorities, contract risk signals, and litigation
-          trends shaping the next quarter.
+          This issue covers the May Visa Bulletin, immigration enforcement updates, student status changes,
+          USCIS policy shifts, and other major U.S. legal developments from May 2026.
         </p>
-        <div class="issue-stats" aria-label="Issue highlights">
-          <div>
-            <strong>12</strong>
-            <span data-i18n="issueStatOne">news notes</span>
-          </div>
-          <div>
-            <strong>5</strong>
-            <span data-i18n="issueStatTwo">practice areas</span>
-          </div>
-          <div>
-            <strong>3</strong>
-            <span data-i18n="issueStatThree">client alerts</span>
-          </div>
-        </div>
-      </article>
-    </section>
-
-    <section class="ticker-bar" aria-label="News ticker">
-      <span data-i18n="tickerLabel">Breaking legal notes</span>
-      <p data-i18n="tickerText">
-        FTC non-compete rule challenges continue | SEC cyber disclosure letters increase | New state
-        privacy laws take effect this summer
-      </p>
-    </section>
-
-    <section class="content-grid" id="latest">
-      <article class="lead-story">
-        <p class="section-kicker" data-i18n="leadKicker">Featured analysis</p>
-        <h2 data-i18n="leadTitle">Court rulings sharpen the standard for executive fiduciary duties</h2>
-        <p data-i18n="leadBody">
-          Recent opinions emphasize board process, conflict documentation, and clear escalation paths when
-          directors approve transactions involving insiders. Companies should refresh minutes, committee
-          charters, and transaction review playbooks before the next deal cycle.
-        </p>
-        <a href="#subscribe" class="text-link" data-i18n="leadLink">Receive the full memo</a>
-      </article>
-
-      <aside class="counsel-note" aria-labelledby="counsel-title">
-        <p class="section-kicker" data-i18n="counselKicker">Counsel's note</p>
-        <h2 id="counsel-title" data-i18n="counselTitle">What to watch this month</h2>
-        <p data-i18n="counselBody">
-          Regulators are using informal guidance and targeted inquiries to move faster than formal
-          rulemaking. Treat agency letters and consent orders as early warnings, not one-off events.
-        </p>
-      </aside>
-    </section>
-
-    <section class="section-block" id="insights" aria-labelledby="insights-title">
-      <div class="section-heading">
-        <p class="section-kicker" data-i18n="insightsKicker">Practice insights</p>
-        <h2 id="insights-title" data-i18n="insightsTitle">Legal updates scattered across every desk</h2>
-      </div>
-
-      <div class="article-grid">
-        <article class="article-card">
-          <span class="article-tag" data-i18n="articleOneTag">Corporate</span>
-          <h3 data-i18n="articleOneTitle">New merger review thresholds raise early filing pressure</h3>
-          <p data-i18n="articleOneBody">
-            Deal teams should map antitrust timelines before exclusivity, especially where data assets or
-            adjacent market expansion may draw scrutiny.
-          </p>
-        </article>
-
-        <article class="article-card highlighted-card">
-          <span class="article-tag" data-i18n="articleTwoTag">Privacy</span>
-          <h3 data-i18n="articleTwoTitle">Consumer privacy notices need clearer AI disclosures</h3>
-          <p data-i18n="articleTwoBody">
-            Several state regulators now expect plain-language explanations of automated decision tools,
-            retention periods, and appeal rights.
-          </p>
-        </article>
-
-        <article class="article-card">
-          <span class="article-tag" data-i18n="articleThreeTag">Employment</span>
-          <h3 data-i18n="articleThreeTitle">Hybrid work policies face renewed wage-hour review</h3>
-          <p data-i18n="articleThreeBody">
-            Employers should align timekeeping, expense reimbursement, and cross-border remote work approvals
-            before annual policy certification.
-          </p>
-        </article>
-
-        <article class="article-card">
-          <span class="article-tag" data-i18n="articleFourTag">Litigation</span>
-          <h3 data-i18n="articleFourTitle">Discovery sanctions trend toward governance evidence</h3>
-          <p data-i18n="articleFourBody">
-            Courts continue to ask who owned preservation decisions, when legal holds were refreshed, and how
-            collaboration tools were searched.
-          </p>
-        </article>
-      </div>
+      </a>
     </section>
 
     <section class="briefs-section" id="briefs" aria-labelledby="briefs-title">
       <div class="briefs-header">
         <p class="section-kicker" data-i18n="briefsKicker">Rapid briefs</p>
-        <h2 id="briefs-title" data-i18n="briefsTitle">Latest policy briefs</h2>
+        <h2 id="briefs-title" data-i18n="briefsTitle">News across the legal landscape</h2>
       </div>
 
       <div class="brief-list">
         <article class="brief-item">
           <time datetime="2026-06-03" data-i18n="briefOneDate">Jun 3</time>
           <div>
-            <h3 data-i18n="briefOneTitle">House votes to rebuke Trump over war with Iran</h3>
+            <h3 data-i18n="briefOneTitle">House votes to limit Trump’s Iran war powers in remarkable rebuke</h3>
             <p data-i18n="briefOneBody">
-              The resolution directs Trump to remove U.S. armed forces from hostilities with Iran, unless Congress
-              votes to declare war or authorizes using military force against it.
+              The House passed a resolution on Wednesday to limit President Donald Trump’s war powers in Iran, a significant rebuke to Trump and his handling of the conflict. (CNN News)
             </p>
           </div>
         </article>
@@ -182,57 +92,78 @@
         <article class="brief-item">
           <time datetime="2026-06-02" data-i18n="briefTwoDate">Jun 2</time>
           <div>
-            <h3 data-i18n="briefTwoTitle">Appellate panel narrows arbitration carve-out</h3>
+            <h3 data-i18n="briefTwoTitle">$1.8 Billion Fund Is ‘Not Moving Forward,’ Blanche Says</h3>
             <p data-i18n="briefTwoBody">
-              The opinion highlights the need to reconcile emergency relief clauses with broad delegation
-              language.
+              Todd Blanche, the acting attorney general, told lawmakers on Tuesday that the Justice Department was
+              withdrawing a proposal to create a $1.8 billion fund to compensate people claiming to be victims of
+              unfair prosecution. (New York Times)
             </p>
           </div>
         </article>
 
         <article class="brief-item">
-          <time datetime="2026-06-01" data-i18n="briefThreeDate">Jun 1</time>
+          <time datetime="2026-05-21" data-i18n="briefThreeDate">May 21</time>
           <div>
-            <h3 data-i18n="briefThreeTitle">Healthcare enforcement focuses on vendor oversight</h3>
+            <h3 data-i18n="briefThreeTitle">Actually, Most Immigrants Won’t Need to Leave U.S. to Get Green Cards, D.H.S. Says</h3>
             <p data-i18n="briefThreeBody">
-              Recent settlements point to documented monitoring, cyber diligence, and audit rights as key
-              risk reducers.
+              But details remained limited after officials said last week that, with “extraordinary” exceptions, people seeking permanent residency must first leave the country. (New York Times)
             </p>
           </div>
         </article>
       </div>
     </section>
 
-    <section class="archive-section" id="archives" aria-labelledby="archive-title">
+    <section class="editorials-section" id="editorials" aria-labelledby="editorials-title">
+      <div class="section-heading">
+        <p class="section-kicker" data-i18n="editorialsKicker">Editorials</p>
+        <h2 id="editorials-title" data-i18n="editorialsTitle">Perspective from the legal desk</h2>
+      </div>
+
+      <div class="editorial-grid">
+        <article class="editorial-card">
+          <span class="article-tag" data-i18n="editorialOneTag">Governance</span>
+          <h3 data-i18n="editorialOneTitle">Editorial 1: An Analysis of AI in the Legal World</h3>
+          <p data-i18n="editorialOneBody">
+            TBA
+          </p>
+        </article>
+
+        <article class="editorial-card featured-editorial">
+          <span class="article-tag" data-i18n="editorialTwoTag">Regulation</span>
+          <h3 data-i18n="editorialTwoTitle">Editorial 2: TBA</h3>
+          <p data-i18n="editorialTwoBody">
+            TBA
+          </p>
+        </article>
+
+        <article class="editorial-card">
+          <span class="article-tag" data-i18n="editorialThreeTag">Strategy</span>
+          <h3 data-i18n="editorialThreeTitle">Editorial 3: TBA</h3>
+          <p data-i18n="editorialThreeBody">
+            TBA
+          </p>
+        </article>
+      </div>
+    </section>
+
+    <section class="archive-section" aria-labelledby="archive-title">
       <div>
         <p class="section-kicker" data-i18n="archiveKicker">Issue archive</p>
-        <h2 id="archive-title" data-i18n="archiveTitle">Monthly newsletter archive</h2>
+        <h2 id="archive-title" data-i18n="archiveTitle">Earlier editions</h2>
       </div>
 
       <div class="archive-grid">
-        <a href="#subscribe" class="archive-card">
-          <span data-i18n="archiveOneMonth">May 2026</span>
-          <strong data-i18n="archiveOneTitle">Risk Signals in Cross-Border Deals</strong>
+        <a href="may-2026.html" class="archive-card" aria-label="Open the May 2026 issue" data-i18n-aria-label="archiveMayAria">
+          <span data-i18n="archiveMayMonth">May 2026</span>
+          <strong data-i18n="archiveMayTitle">Legal Curiosities: What Happened in U.S. Law in May?</strong>
         </a>
-        <a href="#subscribe" class="archive-card">
-          <span data-i18n="archiveTwoMonth">April 2026</span>
-          <strong data-i18n="archiveTwoTitle">Employment Policies After Agency Shifts</strong>
+        <a href="april-2026.html" class="archive-card" aria-label="Open the April 2026 issue" data-i18n-aria-label="archiveAprilAria">
+          <span data-i18n="archiveAprilMonth">April 2026</span>
+          <strong data-i18n="archiveAprilTitle">Legal Curiosities: What Happened in U.S. Law in April?</strong>
         </a>
-        <a href="#subscribe" class="archive-card">
-          <span data-i18n="archiveThreeMonth">March 2026</span>
-          <strong data-i18n="archiveThreeTitle">Privacy Operations for Growth Teams</strong>
-        </a>
-        <a href="#subscribe" class="archive-card">
-          <span data-i18n="archiveFourMonth">February 2026</span>
-          <strong data-i18n="archiveFourTitle">Contract Checkpoints for the New Quarter</strong>
-        </a>
-        <a href="#subscribe" class="archive-card">
-          <span data-i18n="archiveFiveMonth">January 2026</span>
-          <strong data-i18n="archiveFiveTitle">Governance Priorities for Annual Planning</strong>
-        </a>
-        <a href="#subscribe" class="archive-card">
-          <span data-i18n="archiveSixMonth">December 2025</span>
-          <strong data-i18n="archiveSixTitle">Year-End Compliance Review</strong>
+        <a href="march-2026.html" class="archive-card" aria-label="Subscribe for the March 2026 issue update" data-i18n-aria-label="archiveMarchAria">
+          <span data-i18n="archiveMarchMonth">March 2026</span>
+          <strong data-i18n="archiveMarchTitle">Legal Curiosities: What Happened in U.S. Law in March?</strong>
         </a>
       </div>
     </section>
@@ -246,25 +177,319 @@
         </p>
       </div>
 
-      <form class="subscribe-form" aria-label="Newsletter subscription form">
-        <label for="email" data-i18n="emailLabel">Work email</label>
+      <form
+              class="subscribe-form"
+              action="https://lanicao.us5.list-manage.com/subscribe/post?u=ea30ef5c1c0524a0389794358&amp;id=deebf10677&amp;f_id=005842edf0"
+              method="post"
+              id="mc-embedded-subscribe-form"
+              name="mc-embedded-subscribe-form"
+              target="_blank"
+              aria-label="Newsletter subscription form"
+              data-i18n-aria-label="subscribeFormAria"
+      >
+        <label for="mce-EMAIL" data-i18n="emailLabel">Email address</label>
+
         <div class="form-row">
-          <input id="email" type="email" placeholder="you@company.com" autocomplete="email" />
-          <button type="submit" data-i18n="subscribeButton">Subscribe</button>
+          <input
+                  id="mce-EMAIL"
+                  type="email"
+                  name="EMAIL"
+                  placeholder="you@example.com"
+                  data-i18n-placeholder="emailPlaceholder"
+                  autocomplete="email"
+                  required
+          />
+
+          <button
+                  type="submit"
+                  name="subscribe"
+                  id="mc-embedded-subscribe"
+                  data-i18n="subscribeButton"
+          >
+            Subscribe
+          </button>
         </div>
+
+        <input type="hidden" name="tags" value="4857310" />
+
+        <div aria-hidden="true" style="position: absolute; left: -5000px;">
+          <input
+                  type="text"
+                  name="b_ea30ef5c1c0524a0389794358_deebf10677"
+                  tabindex="-1"
+                  value=""
+          />
+        </div>
+
         <p class="form-note" data-i18n="formNote">
-          This demo form shows the intended website experience and does not submit data.
+          Submit your email to receive future newsletter updates.
         </p>
       </form>
     </section>
   </main>
 
   <footer class="site-footer">
-    <p data-i18n="footerText">© 2026 Lanicao Law Group. Attorney advertising. For informational purposes only.</p>
+    <p data-i18n="footerText">© 2026 News and Updates. For informational purposes only.</p>
     <a href="#top" data-i18n="footerLink">Back to top</a>
   </footer>
 </div>
 
-<script type="module" src="/script.js"></script>
+<script>
+  const translations = {
+    en: {
+      metaDescription: "North America Legal Monthly is a multilingual newsletter featuring legal news, immigration updates, regulatory developments, editorials, and brief U.S. news summaries.",
+      pageTitle: "North America Legal Monthly",
+      brandAria: "North America Legal Monthly home",
+      navAria: "Primary navigation",
+      languageAria: "Language selector",
+      brandEyebrow: "News and Updates",
+      brandName: "North America Legal Monthly",
+      navLatest: "Latest",
+      navEditorials: "Editorials",
+      navBriefs: "Briefs",
+      navSubscribe: "Subscribe",
+      heroKicker: "Monthly legal intelligence",
+      heroTitle: "Practical legal news for readers who want to stay up to date.",
+      heroSummary: "A multilingual legal newsletter covering immigration, economic policy, regulatory updates, and major U.S. legal developments.",
+      heroPrimary: "Read the latest issue",
+      heroSecondary: "Get monthly updates",
+      issueAria: "Read the May 2026 newsletter issue",
+      issueMonth: "May 2026 Issue",
+      issueNo: "2026 Vol. 5",
+      issueTitle: "Legal Curiosities: What Happened in U.S. Law This Month?",
+      issueSummary: "This issue covers the May Visa Bulletin, immigration enforcement updates, student status changes, USCIS policy shifts, and other major U.S. legal developments from May 2026.",
+      briefsKicker: "Rapid briefs",
+      briefsTitle: "News across the legal landscape",
+      briefOneDate: "Jun 3",
+      briefOneTitle: "House votes to limit Trump’s Iran war powers in remarkable rebuke",
+      briefOneBody: "The House passed a resolution on Wednesday to limit President Donald Trump’s war powers in Iran, a significant rebuke to Trump and his handling of the conflict. (CNN News)",
+      briefTwoDate: "Jun 2",
+      briefTwoTitle: "$1.8 Billion Fund Is ‘Not Moving Forward,’ Blanche Says",
+      briefTwoBody: "Todd Blanche, the acting attorney general, told lawmakers on Tuesday that the Justice Department was withdrawing a proposal to create a $1.8 billion fund to compensate people claiming to be victims of unfair prosecution. (New York Times)",
+      briefThreeDate: "May 21",
+      briefThreeTitle: "Actually, Most Immigrants Won’t Need to Leave U.S. to Get Green Cards, D.H.S. Says",
+      briefThreeBody: "But details remained limited after officials said last week that, with “extraordinary” exceptions, people seeking permanent residency must first leave the country. (New York Times)",
+      editorialsKicker: "Editorials",
+      editorialsTitle: "Perspective from the legal desk",
+      editorialOneTag: "Governance",
+      editorialOneTitle: "Editorial 1: An Analysis of AI in the Legal World",
+      editorialOneBody: "TBA",
+      editorialTwoTag: "Regulation",
+      editorialTwoTitle: "Editorial 2: TBA",
+      editorialTwoBody: "TBA",
+      editorialThreeTag: "Strategy",
+      editorialThreeTitle: "Editorial 3: TBA",
+      editorialThreeBody: "TBA",
+      archiveKicker: "Issue archive",
+      archiveTitle: "Earlier editions",
+      archiveMayAria: "Open the May 2026 issue",
+      archiveMayMonth: "May 2026",
+      archiveMayTitle: "Legal Curiosities: What Happened in U.S. Law in May?",
+      archiveAprilAria: "Open the April 2026 issue",
+      archiveAprilMonth: "April 2026",
+      archiveAprilTitle: "Legal Curiosities: What Happened in U.S. Law in April?",
+      archiveMarchAria: "Subscribe for the March 2026 issue update",
+      archiveMarchMonth: "March 2026",
+      archiveMarchTitle: "Legal Curiosities: What Happened in U.S. Law in March?",
+      subscribeKicker: "Stay current",
+      subscribeTitle: "Get the newsletter in your inbox",
+      subscribeBody: "Receive monthly legal updates in English, Simplified Chinese, or Traditional Chinese.",
+      subscribeFormAria: "Newsletter subscription form",
+      emailLabel: "Email address",
+      emailPlaceholder: "you@example.com",
+      subscribeButton: "Subscribe",
+      formNote: "Submit your email to receive future newsletter updates.",
+      footerText: "© 2026 News and Updates. For informational purposes only.",
+      footerLink: "Back to top"
+    },
+    zhHans: {
+      metaDescription: "《北美法律月刊》是一份多语言法律资讯月刊，内容涵盖法律新闻、移民动态、监管变化、专题评论和美国重要新闻简报。",
+      pageTitle: "北美法律月刊",
+      brandAria: "北美法律月刊首页",
+      navAria: "主导航",
+      languageAria: "语言选择",
+      brandEyebrow: "新闻与动态",
+      brandName: "北美法律月刊",
+      navLatest: "最新一期",
+      navEditorials: "专题评论",
+      navBriefs: "简讯",
+      navSubscribe: "订阅",
+      heroKicker: "每月法律资讯",
+      heroTitle: "为希望及时了解动态的读者提供实用法律新闻。",
+      heroSummary: "一份多语言法律月刊，聚焦移民、经济政策、监管更新以及美国重要法律动态。",
+      heroPrimary: "阅读最新一期",
+      heroSecondary: "获取每月更新",
+      issueAria: "阅读 2026 年 5 月法律月刊",
+      issueMonth: "2026 年 5 月刊",
+      issueNo: "2026 年第 5 期",
+      issueTitle: "法律新鲜事：本月美国法律领域发生了什么？",
+      issueSummary: "本期内容涵盖 5 月签证公告、移民执法动态、学生身份变化、USCIS 政策调整，以及 2026 年 5 月美国法律领域的其他重要进展。",
+      briefsKicker: "快速简讯",
+      briefsTitle: "法律与政策领域新闻速览",
+      briefOneDate: "6月3日",
+      briefOneTitle: "众议院投票限制特朗普对伊朗动武权限，形成罕见反制",
+      briefOneBody: "众议院周三通过一项决议，限制总统唐纳德·特朗普在伊朗问题上的战争权限。这被视为对特朗普及其处理相关冲突方式的重要反制。（CNN 新闻）",
+      briefTwoDate: "6月2日",
+      briefTwoTitle: "布兰奇表示，18 亿美元补偿基金“不会继续推进”",
+      briefTwoBody: "代理司法部长托德·布兰奇周二告诉国会议员，司法部正在撤回一项设立 18 亿美元基金的提案。该基金原计划用于补偿声称自己遭受不公正起诉的人士。（《纽约时报》）",
+      briefThreeDate: "5月21日",
+      briefThreeTitle: "DHS 表示，多数移民实际上无需离开美国即可申请绿卡",
+      briefThreeBody: "此前有官员表示，除“特殊”例外情况外，申请永久居民身份的人须先离开美国；但最新说明发布后，具体细节仍然有限。（《纽约时报》）",
+      editorialsKicker: "专题评论",
+      editorialsTitle: "来自法律视角的观察",
+      editorialOneTag: "治理",
+      editorialOneTitle: "专题评论 1：法律领域中的人工智能分析",
+      editorialOneBody: "待发布",
+      editorialTwoTag: "监管",
+      editorialTwoTitle: "专题评论 2：待发布",
+      editorialTwoBody: "待发布",
+      editorialThreeTag: "策略",
+      editorialThreeTitle: "专题评论 3：待发布",
+      editorialThreeBody: "待发布",
+      archiveKicker: "期刊存档",
+      archiveTitle: "往期内容",
+      archiveMayAria: "打开 2026 年 5 月刊",
+      archiveMayMonth: "2026 年 5 月",
+      archiveMayTitle: "法律新鲜事：5 月美国法律领域发生了什么？",
+      archiveAprilAria: "打开 2026 年 4 月刊",
+      archiveAprilMonth: "2026 年 4 月",
+      archiveAprilTitle: "法律新鲜事：4 月美国法律领域发生了什么？",
+      archiveMarchAria: "订阅以获取 2026 年 3 月刊更新",
+      archiveMarchMonth: "2026 年 3 月",
+      archiveMarchTitle: "即将上传",
+      subscribeKicker: "保持关注",
+      subscribeTitle: "订阅并接收月刊更新",
+      subscribeBody: "每月接收英文、简体中文或繁体中文法律资讯更新。",
+      subscribeFormAria: "月刊订阅表单",
+      emailLabel: "邮箱地址",
+      emailPlaceholder: "you@example.com",
+      subscribeButton: "订阅",
+      formNote: "提交邮箱后，您将收到之后的月刊更新。",
+      footerText: "© 2026 新闻与动态。内容仅供参考，不构成法律意见。",
+      footerLink: "返回顶部"
+    },
+    zhHant: {
+      metaDescription: "《北美法律月刊》是一份多語言法律資訊月刊，內容涵蓋法律新聞、移民動態、監管變化、專題評論和美國重要新聞簡報。",
+      pageTitle: "北美法律月刊",
+      brandAria: "北美法律月刊首頁",
+      navAria: "主導覽",
+      languageAria: "語言選擇",
+      brandEyebrow: "新聞與動態",
+      brandName: "北美法律月刊",
+      navLatest: "最新一期",
+      navEditorials: "專題評論",
+      navBriefs: "簡訊",
+      navSubscribe: "訂閱",
+      heroKicker: "每月法律資訊",
+      heroTitle: "為希望即時了解動態的讀者提供實用法律新聞。",
+      heroSummary: "一份多語言法律月刊，聚焦移民、經濟政策、監管更新以及美國重要法律動態。",
+      heroPrimary: "閱讀最新一期",
+      heroSecondary: "取得每月更新",
+      issueAria: "閱讀 2026 年 5 月法律月刊",
+      issueMonth: "2026 年 5 月刊",
+      issueNo: "2026 年第 5 期",
+      issueTitle: "法律新鮮事：本月美國法律領域發生了什麼？",
+      issueSummary: "本期內容涵蓋 5 月簽證公告、移民執法動態、學生身分變化、USCIS 政策調整，以及 2026 年 5 月美國法律領域的其他重要進展。",
+      briefsKicker: "快速簡訊",
+      briefsTitle: "法律與政策領域新聞速覽",
+      briefOneDate: "6月3日",
+      briefOneTitle: "眾議院投票限制川普對伊朗動武權限，形成罕見反制",
+      briefOneBody: "眾議院週三通過一項決議，限制總統唐納德·川普在伊朗問題上的戰爭權限。這被視為對川普及其處理相關衝突方式的重要反制。（CNN 新聞）",
+      briefTwoDate: "6月2日",
+      briefTwoTitle: "布蘭奇表示，18 億美元補償基金「不會繼續推進」",
+      briefTwoBody: "代理司法部長托德·布蘭奇週二告訴國會議員，司法部正在撤回一項設立 18 億美元基金的提案。該基金原計畫用於補償聲稱自己遭受不公正起訴的人士。（《紐約時報》）",
+      briefThreeDate: "5月21日",
+      briefThreeTitle: "DHS 表示，多數移民實際上無需離開美國即可申請綠卡",
+      briefThreeBody: "此前有官員表示，除「特殊」例外情況外，申請永久居民身分的人須先離開美國；但最新說明發布後，具體細節仍然有限。（《紐約時報》）",
+      editorialsKicker: "專題評論",
+      editorialsTitle: "來自法律視角的觀察",
+      editorialOneTag: "治理",
+      editorialOneTitle: "專題評論 1：法律領域中的人工智慧分析",
+      editorialOneBody: "待發布",
+      editorialTwoTag: "監管",
+      editorialTwoTitle: "專題評論 2：待發布",
+      editorialTwoBody: "待發布",
+      editorialThreeTag: "策略",
+      editorialThreeTitle: "專題評論 3：待發布",
+      editorialThreeBody: "待發布",
+      archiveKicker: "期刊存檔",
+      archiveTitle: "往期內容",
+      archiveMayAria: "開啟 2026 年 5 月刊",
+      archiveMayMonth: "2026 年 5 月",
+      archiveMayTitle: "法律新鮮事：5 月美國法律領域發生了什麼？",
+      archiveAprilAria: "開啟 2026 年 4 月刊",
+      archiveAprilMonth: "2026 年 4 月",
+      archiveAprilTitle: "法律新鮮事：4 月美國法律領域發生了什麼？",
+      archiveMarchAria: "訂閱以取得 2026 年 3 月刊更新",
+      archiveMarchMonth: "2026 年 3 月",
+      archiveMarchTitle: "即將上傳",
+      subscribeKicker: "保持關注",
+      subscribeTitle: "訂閱並接收月刊更新",
+      subscribeBody: "每月接收英文、簡體中文或繁體中文法律資訊更新。",
+      subscribeFormAria: "月刊訂閱表單",
+      emailLabel: "電子郵件地址",
+      emailPlaceholder: "you@example.com",
+      subscribeButton: "訂閱",
+      formNote: "提交電子郵件後，您將收到之後的月刊更新。",
+      footerText: "© 2026 新聞與動態。內容僅供參考，不構成法律意見。",
+      footerLink: "返回頂部"
+    }
+  };
+
+  function applyLanguage(language) {
+    const dictionary = translations[language] || translations.en;
+
+    document.documentElement.lang =
+            language === "zhHans" ? "zh-Hans" : language === "zhHant" ? "zh-Hant" : "en";
+
+    document.title = dictionary.pageTitle || translations.en.pageTitle;
+
+    document.querySelectorAll("[data-i18n]").forEach((element) => {
+      const key = element.getAttribute("data-i18n");
+      if (dictionary[key]) {
+        element.textContent = dictionary[key];
+      }
+    });
+
+    document.querySelectorAll("[data-i18n-placeholder]").forEach((element) => {
+      const key = element.getAttribute("data-i18n-placeholder");
+      if (dictionary[key]) {
+        element.setAttribute("placeholder", dictionary[key]);
+      }
+    });
+
+    document.querySelectorAll("[data-i18n-aria-label]").forEach((element) => {
+      const key = element.getAttribute("data-i18n-aria-label");
+      if (dictionary[key]) {
+        element.setAttribute("aria-label", dictionary[key]);
+      }
+    });
+
+    document.querySelectorAll("[data-i18n-meta-description]").forEach((element) => {
+      const key = element.getAttribute("data-i18n-meta-description");
+      if (dictionary[key]) {
+        element.setAttribute("content", dictionary[key]);
+      }
+    });
+
+    document.querySelectorAll(".language-button").forEach((button) => {
+      button.classList.toggle("active", button.dataset.language === language);
+    });
+
+    localStorage.setItem("newsletterLanguage", language);
+  }
+
+  document.addEventListener("DOMContentLoaded", () => {
+    const savedLanguage = localStorage.getItem("newsletterLanguage") || "en";
+
+    document.querySelectorAll(".language-button").forEach((button) => {
+      button.addEventListener("click", () => {
+        applyLanguage(button.dataset.language);
+      });
+    });
+
+    applyLanguage(savedLanguage);
+  });
+</script>
 </body>
 </html>
