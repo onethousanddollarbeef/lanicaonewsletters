@@ -147,45 +147,45 @@
     </section>
 
     <section class="archive-section">
-      <div class="archive-intro">
+      <div class="archive-header">
         <p class="section-kicker">Issue Archive</p>
-        <h2>Earlier<br>editions</h2>
+        <h2>Earlier Editions</h2>
       </div>
 
-      <div class="archive-carousel-wrapper">
-        <button class="archive-arrow archive-arrow-left" aria-label="Previous newsletters">
-          &#8249;
+      <div class="archive-carousel-wrap">
+        <button class="archive-arrow archive-arrow-left" type="button" aria-label="Previous newsletters">
+          ‹
         </button>
 
         <div class="archive-carousel" id="archiveCarousel">
-          <a href="may-2026.html" class="archive-card">
+          <a class="archive-card" href="may-2026.html">
             <p>May 2026</p>
             <h3>Legal Curiosities: What Happened in U.S. Law in May?</h3>
           </a>
 
-          <a href="april-2026.html" class="archive-card">
+          <a class="archive-card" href="april-2026.html">
             <p>April 2026</p>
             <h3>Legal Curiosities: What Happened in U.S. Law in April?</h3>
           </a>
 
-          <a href="march-2026.html" class="archive-card">
+          <a class="archive-card" href="march-2026.html">
             <p>March 2026</p>
             <h3>Legal Curiosities: What Happened in U.S. Law in March?</h3>
           </a>
 
-          <a href="february-2026.html" class="archive-card">
+          <a class="archive-card" href="february-2026.html">
             <p>February 2026</p>
             <h3>Legal Curiosities: What Happened in U.S. Law in February?</h3>
           </a>
 
-          <a href="january-2026.html" class="archive-card">
+          <a class="archive-card" href="january-2026.html">
             <p>January 2026</p>
             <h3>Legal Curiosities: What Happened in U.S. Law in January?</h3>
           </a>
         </div>
 
-        <button class="archive-arrow archive-arrow-right" aria-label="Next newsletters">
-          &#8250;
+        <button class="archive-arrow archive-arrow-right" type="button" aria-label="Next newsletters">
+          ›
         </button>
       </div>
     </section>
@@ -511,6 +511,25 @@
     });
 
     applyLanguage(savedLanguage);
+  });
+</script>
+<script>
+  const archiveCarousel = document.getElementById("archiveCarousel");
+  const archiveLeft = document.querySelector(".archive-arrow-left");
+  const archiveRight = document.querySelector(".archive-arrow-right");
+
+  archiveRight.addEventListener("click", () => {
+    archiveCarousel.scrollBy({
+      left: 350,
+      behavior: "smooth"
+    });
+  });
+
+  archiveLeft.addEventListener("click", () => {
+    archiveCarousel.scrollBy({
+      left: -350,
+      behavior: "smooth"
+    });
   });
 </script>
 </body>
