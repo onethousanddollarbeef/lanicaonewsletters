@@ -17,6 +17,94 @@
   />
   <script type="module" crossorigin src="/lanicaonewsletters/assets/script-BUOrxcsY.js"></script>
   <link rel="stylesheet" crossorigin href="/lanicaonewsletters/assets/script-MeIPmVLV.css">
+  <style>
+    .archive-section {
+      background: #f7f5ef;
+      padding: 4rem 2rem;
+      overflow: hidden;
+    }
+
+    .archive-header {
+      max-width: 1100px;
+      margin: 0 auto 2rem;
+    }
+
+    .archive-carousel-wrap {
+      position: relative;
+      max-width: 1100px;
+      margin: 0 auto;
+    }
+
+    .archive-carousel {
+      display: flex;
+      gap: 1.5rem;
+      overflow-x: auto;
+      scroll-behavior: smooth;
+      scrollbar-width: none;
+      padding: 0.5rem 0.25rem 1.5rem;
+    }
+
+    .archive-carousel::-webkit-scrollbar {
+      display: none;
+    }
+
+    .archive-card {
+      flex: 0 0 320px;
+      min-height: 210px;
+      background: #fffdf8;
+      border: 1px solid #d8d8d8;
+      border-radius: 24px;
+      padding: 1.75rem;
+      text-decoration: none;
+      color: #111827;
+      box-sizing: border-box;
+    }
+
+    .archive-card p {
+      margin: 0 0 3rem;
+      color: #8a6a32;
+      font-weight: 700;
+      text-transform: uppercase;
+      letter-spacing: 0.08em;
+    }
+
+    .archive-card h3 {
+      margin: 0;
+      font-size: 1.35rem;
+      line-height: 1.25;
+      color: #111827;
+    }
+
+    .archive-arrow {
+      position: absolute;
+      top: 50%;
+      transform: translateY(-50%);
+      z-index: 5;
+      width: 44px;
+      height: 44px;
+      border-radius: 999px;
+      border: 1px solid #cfcfcf;
+      background: white;
+      color: #111827;
+      font-size: 2rem;
+      cursor: pointer;
+      display: grid;
+      place-items: center;
+    }
+
+    .archive-arrow-left {
+      left: -22px;
+    }
+
+    .archive-arrow-right {
+      right: -22px;
+    }
+
+    .archive-arrow:hover {
+      background: #111827;
+      color: white;
+    }
+  </style>
 </head>
 <body id="top">
 <div class="page-shell">
