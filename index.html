@@ -176,6 +176,41 @@
       background: #111827;
       color: white;
     }
+
+
+    .editorial-grid-compact {
+      display: grid;
+      grid-template-columns: repeat(3, minmax(0, 1fr));
+      gap: 1.5rem;
+      align-items: stretch;
+    }
+
+    .editorial-grid-compact .editorial-card,
+    .editorial-grid-compact .featured-editorial {
+      width: auto;
+      min-height: 260px;
+      grid-column: auto;
+      grid-row: auto;
+    }
+
+    .editorial-card-link {
+      display: block;
+      text-decoration: none;
+      color: inherit;
+      cursor: pointer;
+    }
+
+    .editorial-card-link:hover,
+    .editorial-card-link:focus-visible {
+      transform: translateY(-4px);
+      box-shadow: 0 22px 45px rgba(17, 24, 39, 0.12);
+    }
+
+    @media (max-width: 900px) {
+      .editorial-grid-compact {
+        grid-template-columns: 1fr;
+      }
+    }
   </style>
 </head>
 <body id="top">
@@ -279,33 +314,14 @@
         <h2 id="editorials-title" data-i18n="editorialsTitle">Perspective from the legal desk</h2>
       </div>
 
-      <div class="editorial-grid">
-        <article class="editorial-card">
-          <span class="article-tag" data-i18n="editorialOneTag">Technology & Law</span>
+      <div class="editorial-grid editorial-grid-compact">
+        <a class="editorial-card editorial-card-link" href="AI-changing-legal-world.html" aria-label="Read editorial: How AI is Changing the Legal World" data-i18n-aria-label="editorialOneAria">
+          <span class="article-tag" data-i18n="editorialOneTag">Technology &amp; Law</span>
           <h3 data-i18n="editorialOneTitle">Editorial 1: How AI is Changing the Legal World</h3>
           <p data-i18n="editorialOneBody">
-            Artificial intelligence is reshaping legal research, contract review, workflow management, and court filing practices. This editorial explores how AI tools are transforming legal work while raising important questions about accuracy, privacy, professional responsibility, and client confidentiality.
+            Artificial intelligence is reshaping legal research, contract review, workflow management, and court filing practices while raising important questions about accuracy, privacy, professional responsibility, and client confidentiality.
           </p>
-          <a class="article-link" href="ai-changing-legal-world-editorial.html" data-i18n="editorialOneLink">
-            Read editorial
-          </a>
-        </article>
-
-        <article class="editorial-card featured-editorial">
-          <span class="article-tag" data-i18n="editorialTwoTag">Regulation</span>
-          <h3 data-i18n="editorialTwoTitle">Editorial 2: TBA</h3>
-          <p data-i18n="editorialTwoBody">
-            TBA
-          </p>
-        </article>
-
-        <article class="editorial-card">
-          <span class="article-tag" data-i18n="editorialThreeTag">Strategy</span>
-          <h3 data-i18n="editorialThreeTitle">Editorial 3: TBA</h3>
-          <p data-i18n="editorialThreeBody">
-            TBA
-          </p>
-        </article>
+        </a>
       </div>
     </section>
 
