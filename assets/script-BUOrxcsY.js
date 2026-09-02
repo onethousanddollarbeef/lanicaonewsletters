@@ -3,7 +3,6 @@
           <h1 id="may-title">Legal Curiosities: What Happened in U.S. Law This Month?</h1>
           <p class="article-meta-line">May, 2026 | Vol. 2, No. 5</p>
           <p class="article-byline">北美法律月刊编辑部</p>
-          <p class="article-contact">法律新闻资讯和广告刊登 请联系我们：Phone: 425-455-9898 | Email: laweditor@outlook.com</p>
 
           <h2>美国移民6月份排期公布：家庭移民集体前进！</h2>
           <p>下方内容为美国国务院发布的2026年6月签证排期。家庭移民表B开，职业移民表B不开。</p>
